@@ -1,0 +1,84 @@
+/**
+Theme Name: viem
+Description: Video WordPress Theme
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Browser Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ * 5.0 - Navigation
+ * 6.0 - Content
+ *   6.1 - Post Thumbnail
+ *   6.2 - Entry Header
+ *   6.3 - Entry Meta
+ *   6.4 - Entry Content
+ *   6.5 - Galleries
+ *   6.6 - Post Formats
+ *   6.7 - Post/Image/Paging Navigation
+ *   6.8 - Attachments
+ *   6.9 - Archives
+ *   6.10 - Contributor Page
+ *   6.11 - 404 Page
+ *   6.12 - Comments
+ *   6.13 - Blog posts
+ *   6.14 - Single post
+ *   6.15 - Single page
+ *   6.16 - Video
+ *   6.17 - Movie
+ *   6.18 - Director
+ *   6.19 - Actor
+ * 7.0 - Sidebar
+ *   7.1 - Widgets
+ *   7.2 - Content Sidebar Widgets
+ * 8.0 - Footer
+ * 9.0 - Off Canvas
+ * 10.0 - Multisite
+ * 11.0 - Print
+ * 12.0 - Mediaelement
+ * 13.0 - Shortcodes
+ * 		13.1 - wpcf7
+ *		13.2 - banner
+ * 14.0 - General
+ * 15.0 - Component-animations
+ * 16.0 - Other
+ * -----------------------------------------------------------------------------
+ */
+
+
+// Theme: Variables and Mixins
+@import "variables";
+@import "mixin";
+
+@import 'default/_reset';
+
+// Components
+@import 'default/_header';
+@import 'default/_navigation';
+@import 'default/_main';
+@import 'default/_404';
+@import 'default/_comments';
+@import 'default/_posts';
+@import 'default/_video';
+@import 'default/movie';
+@import 'default/_director';
+@import 'default/_actor';
+@import 'default/_page';
+@import 'default/_grid';
+@import 'default/_sidebar';
+@import 'default/_footer';
+@import 'default/_off-canvas';
+@import 'default/_multisite';
+@import 'default/_print';
+@import 'default/_mediaelement';
+@import 'default/_shortcodes';
+@import 'default/_wpcf7';
+@import 'default/_banner';
+
+@import 'default/_general';
+@import 'default/_cmp-animations';
+@import 'default/_other';
+

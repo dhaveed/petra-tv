@@ -1,0 +1,336 @@
+// Theme define
+$body-font-family: 			'Poppins', sans-serif;
+$heading-font-family: 		'Poppins', sans-serif;
+$font-size: 14px;
+$line-height: 1.7; // ~24px
+
+$font-size-root: 14px;
+$font-unit-rem: 0rem;  
+$font-unit-em: 0em;
+$font-unit: 0em;
+$font-weight-base:        400; 
+$font-weight-bold:        600;
+$font-style-base:         normal; 
+$font-size-xlarge:        ((20px / $font-size-root) + $font-unit);  //20px;
+$font-size-large:         ((18px / $font-size-root) + $font-unit); // ~18px
+$font-size-xbase:         ((16px / $font-size-root) + $font-unit); // ~16px
+$font-size-small:         85%; // ~16px
+
+$container-width:			1170px; // min-width:1200px
+$top-header-height: 		80px;
+$top-header-height-2: 		60px;
+
+$entry-title-font-size:		2.571em; // x$font-size ~= 36px
+
+// Override bootstrap variables
+$main-color:				#ecc200;//
+$secondary-color:         	#131313;
+$main-color-hover:			#0d0d0d;
+$brand-primary:         	$main-color;
+$text-color:            	#666666;
+$text-secondary-color:      #999999;
+$link-color:      			$secondary-color;
+$link-hover-color:      	$main-color;
+$link-hover-decoration: 	none;
+$link-dark-color:      		#ffffff;
+
+$body-background-color:		#ffffff;
+$title-color:				#131313;
+$headings-color: 			#131313;
+$headings-font-weight:    	400;
+$headings-secondary-color: 	#191a21;
+$headings-dark-color: 		rgba(255,255,255,1.0);
+$padding-heading-bgcolor:   #000000;
+$padding-heading-color:   	#ffffff;
+$breadcrumbs-color:			rgba(255,255,255,0.6);
+$headings-line-height:    	1.3;
+
+//** Link hover color set via `darken()` function.
+
+$gray-darker:            darken($text-color, 10%); // #222
+$gray-dark:              #333; // #333 
+$gray:                   #666; // #666
+$gray-light:             #999; // #999
+$gray-lighter:           #aaa;//lighten(#000, 93.5%); // #eee
+
+//== Colors
+// Social media colors
+$social-facebook-color: 	#3b5998; //  59, 89, 152
+$social-twitter-color: 		#55acee; //  85, 172, 238
+$social-flickr-color: 		#ff0084; //  255, 0, 132
+$social-plusgoogle-color: 	#dd4b39;//  221, 75, 57
+$social-youtube-color: 		#bb0000; //  187, 0, 0
+$social-vimeo-color: 		#45bbff; //  69, 187, 255
+$social-linkedin-color: 	#007bb5; //  0, 123, 181
+$social-instagram-color: 	#a17357; //  233, 89, 80
+$social-github-color: 		#000000; //  0, 0, 0
+$social-rss-color: 			#ff6600; //  255, 102, 0
+$social-whatsapp-color: 	#4dc247; //  77, 194, 71
+$social-pinterest-color: 	#cb2027; //  203, 32, 39
+$social-vine-color: 		#00bf8f;//  0, 191, 143
+$social-tumblr-color: 		#32506d;
+$social-behance-color: 		#1769ff;
+$social-stackexchange-color: 		#2D6DB5;
+$social-soundcloud-color: 		#f50;
+$social-dribbble-color: 		#ea4c89; // 235,75,136
+
+
+//## Gray and brand colors for use across Bootstrap.
+
+$brand-primary:         	$main-color;
+$brand-primary-secondary: 	$brand-primary; 
+$brand-success:         	#a0ce4e;//#428bca;7aba35 
+$brand-info:            	#63B5FD;
+$brand-warning:         	#FEAB62;
+$brand-danger:          	#FE252C;
+$background-color-default: $main-color;
+$background-secondary-color:#eaeaea;
+$border-color: 				rgba(#999999, 0.2); //#eaeaea;//#a9a9a9;
+$dark-border-color: 		#ffffff;
+
+// Input feild
+$input-base-padding:		11px 20px;
+$input-base-color:			#999999;
+$placeholder-base-color:	$input-base-color;//rgba(153,153,153,1.0);
+
+$input-dark-base-color:			rgba(255,255,255,1.0);
+$input-dark-border-color:		rgba(255,255,255,1.0);
+$placeholder-dark-base-color:	rgba(153,153,153,1.0);
+
+$btn-padding:				13px 30px;
+$btn-color:					#0d0d0d;
+$btn-background-color:		$main-color;
+$btn-color-hover:			#0d0d0d;
+$btn-background-color-hover:$main-color-hover;
+$btn-sec-background-color:	#131313;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$padding-base-vertical:     6px;
+$padding-base-horizontal:   12px;
+
+$padding-large-vertical:    10px;
+$padding-large-horizontal:  16px;
+
+$padding-small-vertical:    5px;
+$padding-small-horizontal:  10px;
+
+$padding-xs-vertical:       1px;
+$padding-xs-horizontal:     5px;
+
+$line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5;
+
+// $border-radius-base:        ((4px / $font-size-root) + $font-unit);
+// $border-radius-large:       ((6px / $font-size-root) + $font-unit);
+// $border-radius-small:       ((3px / $font-size-root) + $font-unit);
+$border-radius-base:        2px;
+$border-radius-large:       2px;
+$border-radius-small:       2px;
+
+//** Global color for active items (e.g., navs or dropdowns).
+$component-active-color:    #fff;
+//** Global background color for active items (e.g., navs or dropdowns).
+$component-active-bg:       $brand-primary;
+
+//** Width of the `border` for generating carets that indicator dropdowns.
+$caret-width-base:          4px;
+//** Carets increase slightly in size for larger components.
+$caret-width-large:         5px;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                700;
+
+$btn-default-color:              $text-color;
+$btn-default-bg:                 $background-color-default;
+$btn-default-border:             $background-color-default;
+
+$btn-primary-color:              #fff;
+$btn-primary-bg:                 $brand-primary;
+$btn-primary-border:             $brand-primary;
+
+$btn-success-color:              #fff;
+$btn-success-bg:                 $brand-success;
+$btn-success-border:             $brand-success;
+
+$btn-info-color:                 #fff;
+$btn-info-bg:                    $brand-info;
+$btn-info-border:                $brand-info;
+
+$btn-warning-color:              #fff;
+$btn-warning-bg:                 $brand-warning;
+$btn-warning-border:             $brand-warning;
+
+$btn-danger-color:               #fff;
+$btn-danger-bg:                  $brand-danger;
+$btn-danger-border:              $brand-danger;
+
+$btn-white-color:               $headings-color;
+$btn-white-bg:                  #fff;
+$btn-white-border:              #fff;
+
+$btn-black-color:               #fff;
+$btn-black-bg:                  #333;
+$btn-black-border:              #333;
+
+//** `<input>` background color
+$input-bg:                       #eaeaea; //#fff;
+//** `<input disabled>` background color
+$input-bg-disabled:              #aaa;
+
+//** Text color for `<input>`s
+$input-color:                     $text-color;
+//** `<input>` border color
+$input-border:                   $border-color;
+//** `<input>` border radius
+$input-border-radius:            $border-radius-base;
+//** Border color for inputs on focus
+$input-border-focus:             $border-color;
+
+//** Placeholder text color
+$input-color-placeholder:        $text-secondary-color;
+
+//** Default `.form-control` height
+$input-height-base: 50px;
+
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+$zindex-navbar:            2000;
+$zindex-dropdown:          1000;
+$zindex-popover:           1060;
+$zindex-tooltip:           1070;
+$zindex-navbar-fixed:      1030;
+$zindex-modal-background:  0;
+$zindex-modal:             1080;
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min;
+
+$screen-xlg:                 1440px;
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         30px;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
+//** New point at which the navbar begins collapsing.
+$nav-float-breakpoint: 		900px;
+$nav-float-breakpoint-max: ($nav-float-breakpoint - 1);
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+$container-tablet:             ((720px + $grid-gutter-width));
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet;
+
+// Medium screen / desktop
+$container-desktop:            ((940px + $grid-gutter-width));
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop;
+
+// Large screen / wide desktop
+$container-large-desktop:      ((1170px + $grid-gutter-width));
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop;
+
+// Footer
+$footer-background:			#000000;
+$footer-color:				#999999;
+$footer-sidebar-background: #131313;
+$footer-sidebar-color: 		$footer-color;
+
+$footer-link-color:			#ffffff;
+$footer-link-hover-color:	#ffffff;
+//Go to top
+$go-to-top-bg: 				$main-color;
+
+// Dark mode
+$dark-body-background-color	: #000000;
+$dark-text-color			: #999999;
+
+$margin-top-default			: 60px;
+$margin-bottom-default		: 60px;
+$padding-top-default		: 60px;
+$padding-bottom-default		: 60px;
+
+// WooCommecer
+//---------- Product Elements
+$product-name-color:                $title-color;
+$product-name-hover-color:          $title-color;
+$price-color:						#999999;
+$product-price-color:				#999999;
+$product-reduced-price:				#f00;
+$product-special-price-color:		#f13340;
+$product-old-price-color:			#888888;
+
+//Shop
+$product-images-background:#eaeaea;
+$shop-loop-item-border-color:#fff;
+$shop-loop-item-hover-border-color:$border-color;
+$shop-loop-item-bg: transparent;
+$shop-button-bg:lighten($text-color, 50%);
+$shop-button-color: $btn-color;
+$payment-box-bg:darken($background-color-default,5%);
+$payment-box-color: $text-color;
+$shop-price-slider-range: $headings-color;
+$shop-price-slider-content: #eaeaea;
+$shop-price-slider-handle: $main-color;
+
+$star-rating-color: $secondary-color; //#f4cb3d;

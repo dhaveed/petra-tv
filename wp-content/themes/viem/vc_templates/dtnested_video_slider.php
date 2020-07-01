@@ -1,0 +1,20 @@
+<?php
+$output = '';
+extract(shortcode_atts(array(
+	'title'					=>'',
+	'transition_style'		=>'fade',
+	'autoplay'				=>'true',
+	'show_control'			=>'',
+	'el_class'				=>'',
+), $atts));
+$el_class  = !empty($el_class) ? ' '.esc_attr( $el_class ) : '';
+$id = uniqid('viem_sc_video_slider_');
+?>
+<div class="viem-sc-video-slider wpb_content_element <?php echo esc_attr($el_class)?>">
+	<?php if(!empty($title)):?>
+		<h3 class="viem-sc-title"><span><?php echo esc_html($title)?></span></h3>
+	<?php endif;?>
+	<ul id="<?php echo esc_attr($id) ?>" class="owl-carousel viem-carousel-slide viem-preload" data-autoplay="<?php echo esc_attr($autoplay);?>" data-dots="0" data-nav="<?php echo ('yes'===$show_control) ? '1':'0' ?>" data-items="1">
+		<?php echo wpb_js_remove_wpautop( $content );?>
+	</ul>
+</div>

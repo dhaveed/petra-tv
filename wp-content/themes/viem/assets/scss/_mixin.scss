@@ -1,0 +1,778 @@
+// Mixins
+// --------------------------------------------------
+
+// Utilities
+@import "mixins/hide-text";
+@import "mixins/opacity";
+@import "mixins/image";
+@import "mixins/labels";
+@import "mixins/reset-filter";
+@import "mixins/resize";
+@import "mixins/responsive-visibility";
+@import "mixins/size";
+@import "mixins/tab-focus";
+@import "mixins/text-emphasis";
+@import "mixins/text-overflow";
+@import "mixins/vendor-prefixes";
+
+// Components
+@import "mixins/alerts";
+@import "mixins/buttons";
+@import "mixins/panels";
+@import "mixins/pagination";
+@import "mixins/list-group";
+@import "mixins/nav-divider";
+@import "mixins/forms";
+@import "mixins/progress-bar";
+@import "mixins/table-row";
+
+// Skins
+@import "mixins/background-variant";
+@import "mixins/border-radius";
+@import "mixins/gradients";
+
+// Layout
+@import "mixins/clearfix";
+@import "mixins/center-block";
+@import "mixins/nav-vertical-align";
+@import "mixins/grid-framework";
+@import "mixins/grid";
+
+@mixin admin-sticky-fix( $offset: 0 ) {
+  $narrow-offset: 46px;
+  $wide-offset: 32px;
+  @if $offset != 0 and type-of($offset) == 'number' {
+    $narrow-offset: $narrow-offset + $offset;
+    $wide-offset: $wide-offset + $offset;
+  }
+  .admin-bar & {
+    top: $narrow-offset;
+    @media screen and (min-width: 783px) {
+      top: $wide-offset;
+    }
+  }
+}
+
+@mixin font-2(){
+  font-family: $heading-font-family;
+  text-transform: uppercase;
+}
+// Font awesome
+@mixin font-awesome($code, $size){
+  content: $code;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include square($size);
+  text-align: center;
+  line-height: $size;
+}
+@mixin add-fa-icon-before($content: "") {
+  &:before {
+    @include font-awesome($content, $size: 14px);
+  }
+}
+
+@mixin add-fa-icon-after($content: ""){
+  &:after {
+    @include font-awesome($content, $size: 14px);
+  }
+}
+// Font elegant
+@mixin font-elegant($code, $size){
+  font-family: 'ElegantIcons';
+  content: "\#{$code}";
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include square($size);
+  text-align: center;
+  line-height: $size;
+}
+@mixin ulclear() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin theme-btn-default(){
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-weight: bold;
+  background: $btn-background-color;
+  border: 1px solid $main-color;
+  color: $btn-color;
+  text-transform: uppercase;
+  outline:none;
+  padding: $btn-padding; // 13px 30px;
+  letter-spacing:0;
+  text-decoration: none;
+  @include border-radius(0px);
+   @include theme-transition();
+   &:hover{
+     //@include opacity(0.9);
+   }
+   i{
+    margin-right: 3px;
+   }
+   .rtl &{
+      i{
+        float: right;
+        margin-left: 3px;
+     }
+   }
+}
+
+@mixin theme-btn-secondary(){
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 1.143em;
+  font-weight:bold;
+  background: $btn-sec-background-color;
+  border: 1px solid $btn-sec-background-color;
+  color: #ffffff;
+  text-transform: uppercase;
+  outline:none;
+  padding: 12px 22px;
+  letter-spacing:0;
+  text-decoration: none;
+  @include border-radius(0px);
+   @include theme-transition();
+   &:hover{
+    @include opacity(0.9);
+   }
+}
+
+@mixin woo-btn-default(){
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  font-weight:bold;
+  //background: $btn-background-color;
+  //border: 1px solid $main-color;
+  background: $shop-button-bg;
+  color: $shop-button-color;
+  text-transform: uppercase;
+  outline:none;
+  padding: $btn-padding; // 12px 30px;
+  letter-spacing:0;
+  text-decoration: none;
+  @include border-radius(2px);
+   @include theme-transition();
+   &:hover{
+      //@include opacity(0.9);
+      background: $main-color;
+      color: $btn-color-hover;
+   }
+}
+
+@mixin theme_box_shadow(){
+    @include box-shadow( 0px 0px 30px 5px rgba(0,0,0,0.2) );
+}
+
+@mixin theme_box_shadow_hover(){
+    @include box-shadow( 0px 0px 30px 5px rgba(0,0,0,0.2) );
+}
+
+@mixin theme_main_container_box_shadow(){
+    @include box-shadow( 0px 30px 30px 5px rgba(0, 0, 0, 0.2) );
+}
+
+@mixin theme-mailchimp-submit(){
+    height: $input-height-base;
+    line-height: 1;
+    padding: 0px 20px;
+    font-size: 1.143em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: $btn-color;
+}
+
+@mixin theme-margin-top-default(){
+  margin-top: $margin-top-default;
+  @media(max-width: 767px){
+    margin-top: $margin-top-default / 2;
+  }
+}
+
+@mixin theme-margin-bottom-default(){
+  margin-bottom: $margin-bottom-default;
+  @media(max-width: 767px){
+    margin-bottom: $margin-bottom-default / 2;
+  }
+}
+
+@mixin theme-padding-top-default($padding-bottom-default){
+  padding-top: $padding-top-default;
+  @media(max-width: 767px){
+    padding-top: $padding-top-default / 2;
+  }
+}
+
+@mixin theme-padding-bottom-default(){
+  padding-bottom: $padding-bottom-default;
+  @media(max-width: 767px){
+    padding-bottom: $padding-bottom-default / 2;
+  }
+}
+
+@mixin theme-widget-title($title-color, $border-color){
+  position: relative;
+  overflow: hidden;
+  display: block;
+  color: $title-color;
+  font-size: 1.143em;
+  font-weight: bold;
+  margin: 0 0 25px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(#000000,0.2);
+  i{
+    margin: 0px 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid $title-color;
+    @include border-radius(100%);
+    text-align:center;
+  }
+}
+
+@mixin theme-posts-entry-meta(){
+  
+}
+
+@mixin theme-border-top-shape(){
+  border-top: 2px solid $border-color;
+}
+@mixin theme-border-bottom-shape(){
+  border-bottom: 1px solid $border-color;
+}
+
+@mixin theme-transition(){
+  @include transition(all 0.1s ease-in-out);
+}
+
+@mixin single-post-heading(){
+  position: relative;
+  //padding-left: 30px;
+  text-transform: capitalize;
+  font-size: 1.714em;
+  /*&:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    margin-top: -0.4em;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: $headings-secondary-color;
+  }*/
+}
+
+@mixin post-image-fit(){
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@mixin theme-shortcode-title(){
+  position: relative;
+  overflow: hidden;
+  display: block;
+  color: $title-color;
+  font-size: 1.714em;
+  margin: 0 0 26px;
+  text-transform: capitalize;
+  a{text-decoration: none;}
+  .viem-sc-desc{
+    font-size: initial;
+      text-transform: none;
+      margin-top: 5px;
+  }
+  @media(max-width: 767px){
+    font-size: 1.3em;
+  }
+  i{
+    margin-right: 8px;
+    color: rgba($title-color, .5);
+  }
+  .rtl &{
+    i{
+      margin-right: auto;
+      margin-left: 8px;
+    }
+  }
+}
+
+@mixin share-links(){
+    display: inline-block;
+    vertical-align: middle;
+    a{
+      color: #ffffff;text-decoration:none;
+      .fa{ font-size: 18px; line-height: inherit;}
+      &.facebook{
+              background-color: $social-facebook-color;
+          }
+          &.twitter{
+              background-color: $social-twitter-color;
+          }
+          &.google{
+              background-color: $social-plusgoogle-color;
+          }
+          &.linkedin{
+              background-color: $social-linkedin-color;
+          }
+          &.tumblr{
+              background-color: $social-tumblr-color;
+          }
+          &.pinterest{
+              background-color: $social-pinterest-color;
+          }
+          &.email{
+              background-color: $text-secondary-color;
+          }
+    }
+}
+
+@mixin theme-fix-grid-desktop(){
+  &.row{
+    > div,
+    article{
+        &[class^="col"]{
+          display: inline-block;
+          vertical-align: top;
+          float: none;
+          margin-right: -4px;
+        } 
+    }
+  }
+}
+
+@mixin border-arrow-top ($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 $width/2 $height $width/2;
+  border-color: transparent transparent $color transparent;
+}
+@mixin border-arrow-bottom ($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: $height $width/2 0 $width/2;
+  border-color: $color transparent transparent transparent;
+}
+@mixin border-arrow-right ($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: $height/2 0 $height/2 $width;
+  border-color: transparent transparent transparent $color;
+}
+@mixin border-arrow-left ($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: $height/2 $width $height/2 0;
+  border-color: transparent $color transparent transparent;
+}
+@mixin border-arrow-bottom-2($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width:$width/2 0  0 $height/2;
+  border-color: $color transparent transparent transparent;
+}
+@mixin border-arrow-top-2($width, $height, $color){
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width:$width/2  $height/2 0 0;
+  border-color: $color transparent transparent transparent;
+}
+
+// Limit text length to n lines
+@mixin theme-ui-ellipsis($lines,$line_height){
+	overflow: hidden;
+	text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: $lines; /* number of lines to show */
+   line-height: $line_height;        /* fallback */
+   max-height: ($line_height * $lines) + em;   /* fallback */
+}
+
+@mixin one-line(){
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin backface-visibility($hidden : hidden){
+  *{
+    backface-visibility: $hidden;
+    -webkit-backface-visibility: $hidden;
+  }
+}
+
+@mixin background-gradient($start-color: #000, $end-color: #000, $start-percent: 0%, $end-percent: 100%){
+  position: relative;
+  display: block;
+  &:before{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: -moz-linear-gradient(top,rgba($start-color,0) $start-percent,rgba($end-color,.7) $end-percent);
+        background: -webkit-gradient(linear,left top,left bottom,color-stop($start-percent,rgba($start-color,0)),color-stop($end-percent,rgba($end-color,.7)));
+        background: -webkit-linear-gradient(top,rgba($start-color,0) $start-percent,rgba($end-color,.7) $end-percent);
+        background: -o-linear-gradient(top,rgba($start-color,0) $start-percent,rgba($end-color,.7) $end-percent);
+        background: -ms-linear-gradient(top,rgba($start-color,0) $start-percent,rgba($end-color,.7) $end-percent);
+        background: linear-gradient(to bottom,rgba($start-color,0) $start-percent,rgba($end-color,.7) $end-percent);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0);
+  }
+}
+
+// Banner effects default.
+@mixin banner-style0(){
+  a{
+      img{
+        @include opacity(1);
+        @include transition(opacity 175ms cubic-bezier(0.785, 0.135, 0.15, 0.86));
+      }
+      &:hover{
+        img{
+          opacity: 0.6;
+        }
+      }
+  }
+}
+
+// Effects
+@mixin banner-style1(){
+  a{
+    position: relative; display: inline-block; max-width: 100%; overflow: hidden; vertical-align: top;
+    //z-index: 1;
+      @include transition(all 0.25s ease 0s);
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      @include opacity(0);
+      @include transition(all 0.3s ease-out);
+    }
+    &:hover{
+      &:before{
+        @include opacity(1);
+      }
+    }
+  }
+}
+
+@mixin banner-style2(){
+  a{
+            position: relative; display: inline-block; max-width: 100%; overflow: hidden; vertical-align: top;
+            background-color: #333;
+            @include transition(all 0.25s ease);
+            @include backface-visibility();
+            &:before{
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+                    border-top: 1px solid rgba(255, 255, 255, 0.8);
+                    bottom: 15px;
+                    content: "";
+                    left: 15px;
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                    transform: scale(0, 1);
+            }
+            &:after{
+                        border-left: 1px solid rgba(255, 255, 255, 0.8);
+                        border-right: 1px solid rgba(255, 255, 255, 0.8);
+                        bottom: 15px;
+                        content: "";
+                        left: 15px;
+                        position: absolute;
+                        right: 15px;
+                        top: 15px;
+                        transform: scale(1, 0);
+            }
+            
+            img{
+                @include transition(all 0.3s ease);
+            }
+
+            &:hover{
+                &:before,&:after{
+                        transform: scale(1);
+                        @include transition(all 0.3s ease-out 0s);
+                }
+
+                img{
+                    opacity: 0.5;
+                }
+            }
+        }
+}
+
+@mixin banner-style3(){
+  a{
+            position: relative; display: inline-block; max-width: 100%; overflow: hidden; vertical-align: top;
+            @include transition(all 0.25s ease);
+            &:before{
+                background: url(../img/plus.png) no-repeat scroll center center / 60px 60px rgba(0, 0, 0, 0.6);
+                content: "";
+                height: 100%;
+                left: 0;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                -webkit-transform: scale(0.4) rotateY(180deg);
+                -moz-transform: scale(0.4) rotateY(180deg);
+                -ms-transform: scale(0.4) rotateY(180deg);
+                -o-transform: scale(0.4) rotateY(180deg);
+                transform: scale(0.4) rotateY(180deg);
+                -webkit-transition: all 0.4s ease 0s;
+                @include transition(all 0.4s ease 0s);
+            }
+            
+            &:hover{
+                &:before{
+                    opacity: 0.6;
+                    filter: alpha(opacity=60);
+                    visibility: visible;
+                    -webkit-transform: scale(1) rotate(0deg);
+                    -moz-transform: scale(1) rotate(0deg);
+                    -ms-transform: scale(1) rotate(0deg);
+                    -o-transform: scale(1) rotate(0deg);
+                    transform: scale(1) rotate(0deg);
+                }
+            }
+        }
+}
+
+@mixin banner-style4(){
+  a{
+        position: relative; display: inline-block; max-width: 100%; overflow: hidden; vertical-align: top;
+        @include transition(all 0.25s ease);
+        &:before, &:after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 100%;
+            @include transition(all 0.3s ease-out 0s);
+        }
+
+        &:after{
+                left: 100%;
+                right: 0;
+        }
+
+        &:hover{
+            &:before{
+                right: 50%;
+                background-color: #000;
+                opacity: 0.3;
+                z-index: 1;
+            }
+
+            &:after{
+                left: 50%;
+                background-color: #000;
+                opacity: 0.3;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+@mixin banner-style5(){
+  a{
+        position: relative; display: inline-block; max-width: 100%; overflow: hidden; vertical-align: top;
+        @include transition(all 0.25s ease);
+        &:before,&:after{
+            content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0;
+            @include transition(all 0.6s ease-in-out);
+        }
+        
+        &:hover{
+            &:after{
+                top: 50%;
+                bottom: 50%;
+                background: rgba(255,255,255,0.2);
+            }
+            &:before{
+                right: 50%;
+                left: 50%;
+                background: rgba(255,255,255,0.2);
+            }
+        }
+    }
+}
+@mixin banner-style6(){
+  a{
+        position: relative;
+    overflow: hidden;
+    display: block;
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      height: 100%; width: 100%;
+      left: 0;
+      top: 0;
+      @include transition(all 0.3s ease-in-out);
+      border: 0px solid rgba(255,255,255,1);
+      z-index: 1;
+    }
+    &:hover{
+      &:before {
+        @include opacity(1);
+        border: 12px solid rgba(255,255,255,0.4);
+      }
+    }
+    }
+}
+@mixin banner-style7(){
+  > a{
+    position: relative;
+    display: block; overflow: hidden;
+    &:before{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0, 0.3);
+      @include opacity(0);
+      @include transition(all 0.3s ease-in-out 0s);
+      z-index: 1;
+    }
+    img{
+      @include transition(all 0.3s ease-in-out 0s);
+    }
+    &:hover{
+      &:before{
+        @include opacity(1);
+      }
+      img{
+        transform: scale(1.15) rotate(-4deg);
+        -moz-transform: scale(1.15) rotate(-4deg);
+        -webkit-transform: scale(1.15) rotate(-4deg);
+        -o-transform: scale(1.15) rotate(-4deg);
+        -ms-transform: scale(1.15) rotate(-4deg);
+      }
+    }
+  }
+}
+
+@mixin effect-block-show(){
+  @include effect-block-show-scale();
+}
+@mixin effect-block-hide(){
+  @include effect-block-hide-scale();
+}
+
+@mixin effect-block-show-scale() {
+  visibility: visible;
+  @include opacity(1);
+  top: 100%;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  @include transition(visibility 0.4s ease-in-out, opacity 0.4s ease-in-out, transform 0.4s ease);
+  //box-shadow: 0px 4px 4px 0px rgba(102, 102, 102, 0.23);
+  display: block;
+  opacity: 1;
+  z-index: 1000;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition: transform 0.3s ease, opacity 0.2s ease .1s;
+  -webkit-transition: -webkit-transform 0.3s ease, opacity 0.2s ease .1s;
+}
+@mixin effect-block-hide-scale() {
+  visibility: hidden;
+  display: block;
+  @include opacity(0);
+  top: 120%;
+  transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out, transform 0.2s ease 0.25s;
+  -webkit-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-transform 0s ease 0.3s;
+  -webkit-transform: translate3d(0, 25px, 0);
+    -moz-transform: translate3d(0, 25px, 0);
+    -ms-transform: translate3d(0, 25px, 0);
+    -o-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: auto;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards; 
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  display: block;
+  opacity:0;
+  transition: transform 0.5s ease, opacity 0.2s ease;
+  -webkit-transition: -webkit-transform 0.5s ease, opacity 0.2s ease;
+  
+}
+
+
+@mixin effect-block-show-gotop() {
+  visibility: visible;
+  @include opacity(1);
+  top: 100%;
+}
+
+@mixin effect-block-hide-gotop() {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: auto;
+  visibility: hidden;
+  display: block;
+  @include opacity(0);
+  @include transition(all 500ms ease);
+  @include box-shadow(2px 2px 5px 1px rgba(0,0,0,0.05), -2px 0px 5px 1px rgba(0,0,0,0.05));
+}
+
+@mixin grayscale($variable){
+    -webkit-filter: grayscale($variable);
+    filter: grayscale($variable);
+}

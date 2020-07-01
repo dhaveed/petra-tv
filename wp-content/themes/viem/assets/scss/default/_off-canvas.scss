@@ -1,0 +1,74 @@
+/**
+ * 8.0 Off Canvas
+ * -----------------------------------------------------------------------------
+ */
+.offcanvas{
+	padding: 0 20px 30px;
+	.site-navigation{
+		position:relative;
+		overflow:hidden;
+		#primary-menu, #main-menu, #primary-menu > ul{
+			display: block;
+			margin: 0px;
+			line-height: 40px;
+			text-align: left;
+			@include ulclear();
+			
+			a{
+				display: block;
+				color: rgba(255,255,255, .6);
+				border-bottom: 1px solid #444444;
+				text-transform: uppercase;
+				&:hover{
+					color: #ffffff;
+				}
+			}
+
+			// Leve 1
+			> li{
+				margin: 0;
+				padding: 0px;
+				> a{
+					color: #ffffff;
+					text-transform: uppercase;
+					font-size: 1.1em;
+				}
+				&:last-child{
+					border-bottom: 0px;
+				}
+				ul{
+					@include ulclear();
+					padding-left: 10px;
+				}
+			}
+
+			li.menu-item-has-children{
+				> a{
+					display: block;
+					position: relative;
+				}
+				ul{
+					@include ulclear();
+					a{
+						padding-left: 30px;
+					}
+					.sub-menu{
+						li a{
+							padding-left:50px;
+						}
+						.sub-menu{
+							li a{
+								padding-left:70px;
+							}
+							.sub-menu{
+								li a{
+									padding-left:90px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+Ver 1.0.9.1 - 25 June 19:
+- Fixed: the Related Videos issue
+- Fixed: the Video Ads redirect issue
+
+Ver 1.0.9 - 26 May 19:
+- Fixed: Video Slider not appearing
+- Add theme option Show/Hide: Views Count, Comments Count
+
+Ver 1.0.8 - 23 May 19:
+- Fixed: Autoplay next video
+- Fixed: https problem with youtube thumbnail
+- Add theme option "Upload font": Add custom fonts via uploading woff
+- Update: WPBakery Page Builder 6.0.2
+- Update: Slider Revolution
+
+Ver 1.0.7 - 21 December 18:
+- Update: WPBakery Page Builder
+- Update: Slider Revolution
+- Updated: WooCommerce templates
+
+Ver 1.0.6 - 18 September 18:
+- New: implemented Sticky mode to keep videos visible to your customers all the time on the page (when scrolling up/down through the page). If the video is not in user viewport, the sticky player will appear in the bottom corner, and if the video is in user viewport, the sticky player will automatically hide.
+- autoplay video only if the video is in viewport on page load
+- Improve community submit video page
+- Fixed: Mailchimp unable to populate the mailing list
+- Added: Shortcode Video Player
+
+Ver 1.0.5 - 6 August 18:
+- Added: Video Specifics: Genre, Director, Actor, Language...
+- Improved: Our Team, Our Brand
+- Update: WPBakery Page Builder
+- Update: Slider Revolution
+- Improvements and bug fixes
+
+Ver 1.0.4 - 29 July 18:
+- New: Videos Thumbnail automatically (option): Select "Auto" to grab the video thumbnail automatically.
+- Added: Enable MP4 Download option
+- Added: Select YouTube player controls option
+- Added: Show Youtube related videos option
+- Fixed: YouTube Playlist issue
+- Fixed: YouTube Channel not working
+- Fixed: Add Actor issue on Movie post type
+
+Ver 1.0.3 - 22 July 18:
+- HTTP Live Streaming (HLS .m3u8) support ('main video' can be HLS m3u8, preroll/midroll/postroll also can be HLS m3u8 format)
+- Amazon S3 & Amazon cloud drive videos
+- Google drive videos
+- Fixed: Badge issue
+
+Ver 1.0.2 - 12 July 18:
+- Added: Movie Post type, Movie Genre, Actor
+- Added: Movie Slider shortcode, Latest Movies widget
+- Update: Theme Options
+- Update: Channel support Author
+- Fixed: Grid layout
+- Fixed: Front-end builder CSS
+
+Ver 1.0.1 - 29 June 18:
+- Improvements and bug fixes
+
+Version 1.0.0:
+- Initial release.

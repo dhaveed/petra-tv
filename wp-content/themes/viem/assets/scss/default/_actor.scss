@@ -1,0 +1,62 @@
+/**
+ * 6.19 - Actor
+ * -----------------------------------------------------------------------------
+ */
+.post-type-archive-viem_actor{
+	.posts article .entry-featured {
+	    margin-bottom: 15px;
+	}
+	.posts article .post-title{
+		text-align: center;
+	}
+}
+ // Single
+ .single-viem_actor{
+ 	.overview{
+ 		padding-bottom: 40px;
+ 		margin-bottom: 40px;
+ 		@include theme-border-bottom-shape();
+ 		@include clearfix();
+ 		.profile-avatar{
+ 			margin-bottom: 20px;
+ 			img{
+				width: 150px;
+				height: auto;
+			}
+ 		}
+ 		@media(min-width: 360px){
+ 			display: table;
+			width: 100%;
+ 			.profile-avatar{
+ 				display: table-cell;
+				vertical-align: top;
+				width: 150px;
+ 			}
+ 			.profile-avatar + .actor-info{
+ 				display: table-cell;
+				vertical-align: top;
+ 				padding-left: 30px;
+ 			}
+ 		}
+ 		.single_actor_overview{
+ 			.actor-info{
+			    margin-bottom: 10px;
+			    span{
+			    	color: #999999;
+			    }
+ 			}
+ 		}
+ 	}
+ 	.entry-header{
+ 		.entry-title{
+ 			font-size: 1.5em;
+ 			font-weight: 500;
+ 			margin-bottom: 20px;
+ 		}
+ 	}
+
+ 	.viem_actors-video,
+ 	.viem_actors-movie{
+ 		@include theme-margin-top-default();
+ 	}
+ }

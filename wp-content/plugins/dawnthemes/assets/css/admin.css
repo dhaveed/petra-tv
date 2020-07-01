@@ -1,0 +1,377 @@
+.dt-vc-icon-dt_woo{
+	background: url('../images/dt-woocommerce.png') no-repeat scroll 0 0 transparent !important;
+}
+
+.dt-tooltip-form {
+	height: 100%;
+}
+
+.dt-tooltip-form .submitbox {
+	background: none repeat scroll 0 0 #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	bottom: 0;
+	left: 0;
+	padding: 8px 16px;
+	position: absolute;
+	right: 0;
+	height: auto;
+}
+
+.dt-tooltip-options {
+	height: calc(100% - 92px);
+	height: -moz-calc(100% - 92px);
+	height: -webkit-calc(100% - 92px);
+	overflow: auto;
+	padding-bottom: 2px;
+}
+
+.dt-tooltip-options>div {
+	padding: 5px 0;
+}
+
+.dt-tooltip-form p.howto {
+	margin: 3px 0;
+}
+
+.dt-tooltip-form label span {
+	display: inline-block;
+	max-width: 24%;
+	padding-right: 5px;
+	text-align: right;
+	width: 24%;
+	vertical-align: top;
+}
+
+.dt-tooltip-form label textarea, .dt-tooltip-form label select,
+	.dt-tooltip-form label input[type="text"] {
+	margin-top: 5px;
+	width: 70%;
+}
+
+#dt-tooltip-cancel {
+	float: left;
+	line-height: 25px;
+}
+
+#dt-tooltip-cancel a {
+	color: #a00;
+	text-decoration: none;
+}
+
+#dt-tooltip-update {
+	float: right;
+	line-height: 23px;
+}
+
+.field-megamenu-fullwidth,
+.field-megamenu-columns,
+.field-menu-icon,
+.field-menu-visibility,
+.field-megamenu-sidebar,
+.field-megamenu-title
+{
+	display: none;
+}
+.enable-megamenu .field-megamenu-fullwidth,
+.enable-megamenu .field-megamenu-columns,
+.enable-megamenu .field-menu-icon,
+.enable-megamenu .field-menu-visibility,
+.enable-megamenu .field-megamenu-sidebar,
+.enable-megamenu .field-megamenu-title{
+	display: block;
+}
+
+.dt-importer {
+	padding: 20px;
+    margin-left: -20px;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 568px) {
+	.dt-importer {
+		padding: 10px;
+	}
+}
+.dt-admin-title {
+	text-align: center;
+    font-size: 2.8em;
+    font-weight: 300;
+    line-height: 1;
+    margin: 15px 0 0;
+}
+.dt-admin-subtitle{
+	text-align: center;
+    font-size: 15px;
+    margin-bottom: 1.6em;
+    color: #555d66;
+}
+.dt-importer-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.dt-importer-item {
+	padding: 30px;
+	width: 33.3333%;
+	max-width: 666px;
+	text-align: center;
+	position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    transition: opacity 0.3s;
+}
+.dt-importer-item:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #ecc200;
+    transform: scale(0.05);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(.4,0,.2,1);
+}
+.dt-importer-item.selected:before{
+	transform: scale(1);
+    opacity: 0.94;
+}
+@media (max-width: 1600px){
+	.dt-importer-item{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.dt-importer-item {
+		width: 100%;
+	}
+}
+.dt-importer-item-options{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 70px 30px 30px;
+    box-sizing: border-box;
+    pointer-events: none;
+    color: #fff;
+    transform: scale(0.05);
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+}
+.dt-importer-item.selected .dt-importer-item-options{
+	pointer-events: auto;
+    transform: scale(1);
+    opacity: 1;
+}
+.dt-importer-item-options-h{
+	overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.dt-importer .dt-button-import{
+	display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 0 38px;
+    border-radius: 50px;
+    margin: 20px 0 0;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    background-color: #fff;
+    color: #222;
+}
+.dt-importer .dt-button-import:not([disabled]):hover{
+	color: #ecc200;
+}
+.dt-importer .dt-button-import([disabled]){
+	opacity: 0.5;
+    cursor: default;
+}
+.dt-importer-item-radio {
+	position: absolute;
+	visibility: hidden;
+}
+.dt-importer.importing .dt-importer-item.selected .dt-importer-item-options{
+	pointer-events: none;
+    transform: scale(0.05);
+    opacity: 0;
+}
+.dt-importer-message{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 70px 50px 30px;
+    text-align: center;
+    box-sizing: border-box;
+    pointer-events: none;
+    color: #fff;
+    transform: scale(5);
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+}
+.dt-importer-message h2{
+	font-size: 2em;
+    line-height: 1.4;
+    margin: 0;
+    color: inherit;
+}
+.dt-importer-message p{
+	font-size: 1.2em;
+}
+.dt-importer-message.done p{
+	max-width: 320px;
+}
+.dt-importer-message a {
+	box-shadow: none !important;
+	color: inherit;
+}
+.dt-importer-message a:hover {
+	color: #000;
+}
+.dt-importer.importing .dt-importer-item.selected .dt-importer-message.progress{
+	pointer-events: auto;
+    transform: scale(1);
+    opacity: 1;
+}
+.dt-importer.importing.success .dt-importer-item.selected .dt-importer-message.progress, .dt-importer.importing.error .dt-importer-item.selected .dt-importer-message.progress{
+	pointer-events: none;
+    transform: scale(0.05);
+    opacity: 0;
+}
+.dt-importer.importing.success .dt-importer-item.selected .dt-importer-message.done, .dt-importer.importing.error .dt-importer-item.selected .dt-importer-message.done{
+	pointer-events: auto;
+    transform: scale(1);
+    opacity: 1;
+}
+.dt-importer.importing .dt-importer-title, .dt-importer.importing .dt-importer-note, .dt-importer.importing .dt-importer-item:not(.selected){
+	pointer-events: none;
+    opacity: 0.3;
+}
+.dt-importer-preloader{
+	display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.dt-importer-preloader:before,
+.dt-importer-preloader:after{
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 3px solid;
+}
+.dt-importer-preloader:before{
+	opacity: 0.33;
+}
+.dt-importer-preloader:after{
+	border-color: transparent;
+	border-top-color: inherit;
+	animation: rotation 0.8s infinite cubic-bezier(.6,.3,.3,.6);
+}
+
+.dt-importer-item-title {
+	position: relative;
+    z-index: 2;
+    line-height: 30px;
+    margin: 0 0 10px;
+    transition: color 0.3s;
+}
+.dt-importer-item-title .btn{
+	display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 0 5px;
+    border-radius: 5em;
+    background-color: rgba(0,0,0,0.06);
+    color: rgba(0,0,0,0.6);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.dt-importer-item-preview {
+	display: block;
+	padding: 20px 20px 65px;
+	border: 3px solid transparent;
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.dt-importer-item:hover .dt-importer-item-preview {
+	border-color: #ccc;
+}
+
+.dt-importer-item-preview img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.dt-importer-item-btn {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+}
+
+
+.dt-importer-option {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.dt-importer-option-title {
+	font-weight: 600;
+}
+
+.dt-importer-option-desc {
+	opacity: 0.5;
+}
+
+.dt-importer-error {
+	margin: 25px 0;
+	padding: 20px 20px 10px;
+	background: #FFD9D9;
+	color: #A24141;
+}
+
+.dt-importer-error p {
+	margin: 0 0 10px;
+}
+
+.dt-importer-note {
+	margin: 25px 0;
+	padding: 20px 20px 10px;
+	background: #DBF2FF;
+	color: #5e6a76;
+}
+
+.dt-importer-note p {
+	margin: 0 0 10px;
+}

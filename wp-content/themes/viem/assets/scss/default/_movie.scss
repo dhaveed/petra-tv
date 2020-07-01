@@ -1,0 +1,129 @@
+/**
+ * 6.17 - Actor
+ * -----------------------------------------------------------------------------
+ */
+// archive
+.viem-movies{
+	a{
+		text-decoration: none;
+	}
+}
+ // Single
+ .single-viem_movie{
+ 	article{
+ 		@include clearfix();
+ 	}
+ 	.movie-info{
+ 		margin-bottom: 30px;
+
+		.movie-picture{
+			@media(min-width: 600px){
+	 			width: 260px;
+	 			float: left;
+	 			margin-right: 40px;
+	 		}
+			margin-bottom: 40px;
+			img{
+				background: #999999;
+    			padding: 3px;
+			}
+		}
+ 	}
+ 	.entry-header{
+ 		.entry-title{
+ 			font-weight: 500;
+ 			margin-bottom: 20px;
+ 		}
+ 	}
+ }
+.viem-sc-movie-cast{
+	.viem-sc-content{
+		&.v-grid-list{
+			margin: -5px;
+			.v-grid-item{
+				padding: 5px;
+			}
+		}
+		.cast-member{
+			margin-bottom: 20px;
+			text-align: center;
+			width: 25%;
+			a{
+				color: inherit;
+			}
+			.cast_movie_image{
+				margin-bottom: 20px;
+			}
+			.cast_movie_name{
+				color: #3883cc;
+				font-weight: bold;
+			}
+			.cast_movie_character{
+				i{
+					font-weight: normal;
+					color: #999999;
+					margin: 0 5px;
+				}
+				font-weight: bold;
+			}
+			@media(max-width: 480px){
+				margin-bottom: 5px;
+				font-size: 0.825em;
+			}
+		}
+	}
+}
+.movie-info-list{
+	> h2{
+		margin-bottom: 20px;
+	}
+	ul{
+		@include ulclear();
+		li{
+			>span, > strong{
+				margin-right: 10px;
+			}
+		}
+	}
+	.genres-links{
+		font-weight: bold;
+	}
+}
+.btn-watch-movie{
+	display: inline-block;
+    vertical-align: top;
+	position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 1.143em;
+    background: #4e4e4e;
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    padding: 0 0px;
+    margin: 2em 0;
+    letter-spacing: 0;
+    text-decoration: none;
+    @include border-radius(0.3em);
+    @include transition(all 0.1s ease-in-out);
+    i{
+		padding: 0 15px;
+		line-height: 2.8;
+		background:#5d5c5d;
+		&:before{font-size: 12px; color: #ffffff;}
+    }
+    span{
+		padding: 0 15px;
+		font-weight: bold;
+    }
+    &:hover,&:focus{
+    	color: #ffffff;
+    }
+    body.rtl &{
+    	i{
+    		@include rotate(180deg);
+    	}
+    }
+}

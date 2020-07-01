@@ -1,0 +1,17 @@
+/**
+ * 6.15 Single page
+ * -----------------------------------------------------------------------------
+ */
+ .page{
+		.entry-header {
+			margin: 0;
+			padding: 0;
+			margin-top: -5px;
+			margin-bottom: 24px;
+			.entry-title{
+				font-size: 2.714em;
+			    font-weight: normal;
+			    text-transform: capitalize;
+			}
+		}
+ }

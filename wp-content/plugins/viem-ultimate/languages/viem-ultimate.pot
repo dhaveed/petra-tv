@@ -1,0 +1,1773 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Viem Ultimate\n"
+"POT-Creation-Date: 2019-05-23 15:54+0700\n"
+"PO-Revision-Date: 2019-05-23 15:54+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: viem-ultimate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/community-videos/community-videos.php:48
+msgid "No results match"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:88
+#: includes/community-videos/community-videos.php:192
+msgid "Submit Video"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:100
+msgid "Video submission form has been disabled."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:105
+#: includes/post-type-video.php:106 includes/post-type-video.php:107
+msgid "Add New Video"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:110
+#, php-format
+msgid "Please <a href=\"%s\">Login</a> to submit a video."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:123
+#: includes/community-videos/community-videos.php:124
+msgid "Your Name"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:127
+#: includes/community-videos/community-videos.php:128
+msgid "Your Email"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:133
+#: includes/community-videos/community-videos.php:134
+msgid "Video Title"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:137
+msgid "Video Description"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:142
+#: includes/post-type-video.php:243
+msgid "Select video player type"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:144
+#: includes/post-type-video.php:250
+msgid "YouTube"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:145
+#: includes/post-type-channel.php:952 includes/post-type-video.php:251
+msgid "Vimeo"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:146
+#: includes/post-type-video.php:252
+msgid "HTML5 (self-hosted)"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:150
+#: includes/post-type-video.php:276
+msgid "YouTube ID"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:152
+#: includes/post-type-video.php:282
+msgid "last part of the URL https://www.youtube.com/watch?v=0dJO0HyE8xE"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:155
+#: includes/post-type-video.php:285
+msgid "Vimeo ID"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:157
+#: includes/post-type-video.php:291
+msgid "last part of the URL http://vimeo.com/119641053"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:160
+#: includes/post-type-video.php:256
+msgid "MP4 Video URL"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:161
+#: includes/post-type-video.php:260
+msgid "Enter .mp4 video URL"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:162
+#: includes/post-type-video.php:262
+msgid "HTML5 video mp4,  HLS m3u8 (url)"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:166
+msgid "Video Image "
+msgstr ""
+
+#: includes/community-videos/community-videos.php:171
+#: includes/post-type-video.php:137 includes/post-type-video.php:145
+msgid "Video Categories"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:172
+msgid "Select from existing categories"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:176
+#: includes/post-type-video.php:157 includes/post-type-video.php:165
+msgid "Video Tags"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:177
+msgid "Select from existing tags"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:181
+#: includes/post-type-channel.php:102
+msgid "Channels"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:182
+msgid "Select from existing channels"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:186
+#: includes/post-type-playlist.php:43
+msgid "Playlists"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:187
+msgid "Select from existing playlists"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:431
+msgid "Your post has been published successfully."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:433
+msgid ""
+"Your post has been uploaded. It will be published after being reviewed by "
+"site admin."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:437
+msgid "Post submission failed. Please try later."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:441
+msgid "Nonce validation failed."
+msgstr ""
+
+#: includes/community-videos/community-videos.php:596
+#: includes/post-type-actor.php:394 includes/post-type-actor.php:482
+#: includes/post-type-director.php:394 includes/post-type-director.php:482
+msgid "Load More"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:651
+msgid "You have no videos"
+msgstr ""
+
+#: includes/community-videos/community-videos.php:657
+msgid "Please log in to view your videos"
+msgstr ""
+
+#: includes/meta-data.php:32
+msgid "Gallery Settings"
+msgstr ""
+
+#: includes/meta-data.php:39
+msgid "Gallery"
+msgstr ""
+
+#: includes/meta-data.php:50
+msgid "Quote Settings"
+msgstr ""
+
+#: includes/meta-data.php:57
+msgid "Quote Content"
+msgstr ""
+
+#: includes/meta-data.php:58
+msgid "Please type the text for your quote here."
+msgstr ""
+
+#: includes/meta-data.php:63
+msgid "By"
+msgstr ""
+
+#: includes/meta-data.php:74
+msgid "Link Settings"
+msgstr ""
+
+#: includes/meta-data.php:81
+msgid "Link URL"
+msgstr ""
+
+#: includes/meta-data.php:82
+msgid "Please input the URL for your link. I.e. http://www.example.com"
+msgstr ""
+
+#: includes/meta-data.php:93 includes/post-type-video.php:207
+msgid "Video Settings"
+msgstr ""
+
+#: includes/meta-data.php:100
+msgid "Layout Type"
+msgstr ""
+
+#: includes/meta-data.php:106
+msgid "Embedded"
+msgstr ""
+
+#: includes/meta-data.php:107 includes/meta-data.php:120
+msgid "Youtube Videos"
+msgstr ""
+
+#: includes/meta-data.php:108 includes/meta-data.php:129
+msgid "Vimeo Videos"
+msgstr ""
+
+#: includes/meta-data.php:112
+msgid "Embedded Code"
+msgstr ""
+
+#: includes/meta-data.php:113
+msgid ""
+"Used when you select Video format. Enter a Youtube, Vimeo, Soundcloud, etc "
+"URL. See supported services at <a href=\"http://codex.wordpress.org/Embeds"
+"\">http://codex.wordpress.org/Embeds</a>."
+msgstr ""
+
+#: includes/meta-data.php:121
+msgid ""
+"Input list Youtube Video IDs. There should be a comma to separate between "
+"IDs (no space)."
+msgstr ""
+
+#: includes/meta-data.php:130
+msgid ""
+"Input list Viemo Video IDs. There should be a comma to separate between IDs "
+"(no space)."
+msgstr ""
+
+#: includes/meta-data.php:138
+msgid "Columns"
+msgstr ""
+
+#: includes/meta-data.php:150
+msgid "Auto Next"
+msgstr ""
+
+#: includes/meta-data.php:157 includes/meta-data.php:277
+#: includes/post-type-channel.php:245 includes/post-type-movie.php:479
+#: includes/post-type-video.php:272 includes/post-type-video.php:328
+#: includes/post-type-video.php:369 includes/post-type-video.php:419
+#: includes/post-type-video.php:459 includes/post-type-video.php:775
+msgid "Yes"
+msgstr ""
+
+#: includes/meta-data.php:158 includes/meta-data.php:276
+#: includes/post-type-channel.php:246 includes/post-type-movie.php:481
+#: includes/post-type-video.php:271 includes/post-type-video.php:327
+#: includes/post-type-video.php:368 includes/post-type-video.php:418
+#: includes/post-type-video.php:458 includes/post-type-video.php:777
+msgid "No"
+msgstr ""
+
+#: includes/meta-data.php:162
+msgid "Auto Play"
+msgstr ""
+
+#: includes/meta-data.php:169
+msgid "Off"
+msgstr ""
+
+#: includes/meta-data.php:170
+msgid "On"
+msgstr ""
+
+#: includes/meta-data.php:202
+msgid "Audio Settings"
+msgstr ""
+
+#: includes/meta-data.php:210
+msgid "Use service audio"
+msgstr ""
+
+#: includes/meta-data.php:213
+msgid "Audio Embed"
+msgstr ""
+
+#: includes/meta-data.php:214
+msgid "URL or code embed."
+msgstr ""
+
+#: includes/meta-data.php:220
+msgid "Use hosted video"
+msgstr ""
+
+#: includes/meta-data.php:223
+msgid "MP3 File URL"
+msgstr ""
+
+#: includes/meta-data.php:224
+msgid "Please enter in the URL to the .mp3 file"
+msgstr ""
+
+#: includes/meta-data.php:229
+msgid "OGA File URL"
+msgstr ""
+
+#: includes/meta-data.php:230
+msgid "Please enter in the URL to the .ogg or .oga file"
+msgstr ""
+
+#: includes/meta-data.php:241
+msgid "Post Settings"
+msgstr ""
+
+#: includes/meta-data.php:248
+msgid "Post Layout"
+msgstr ""
+
+#: includes/meta-data.php:249 includes/meta-data.php:261
+#: includes/post-type-video.php:215 includes/post-type-video.php:228
+msgid "Default to use the setting in Theme Options."
+msgstr ""
+
+#: includes/meta-data.php:260
+msgid "Featured Image Layout"
+msgstr ""
+
+#: includes/meta-data.php:265 includes/post-type-video.php:232
+msgid "Default"
+msgstr ""
+
+#: includes/meta-data.php:266 includes/post-type-video.php:234
+msgid "In Container"
+msgstr ""
+
+#: includes/meta-data.php:267
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/meta-data.php:271
+msgid "Featured"
+msgstr ""
+
+#: includes/meta-data.php:272
+msgid ""
+"Make this post featured. Featured posts will appear in DT Posts Wiget "
+"(orderby Featured)."
+msgstr ""
+
+#: includes/meta-data.php:287
+msgid "--Select Slider--"
+msgstr ""
+
+#: includes/meta-data.php:297
+msgid "No sliders found"
+msgstr ""
+
+#: includes/meta-data.php:301
+msgid "Default Menu..."
+msgstr ""
+
+#: includes/meta-data.php:307
+msgid "Page Settings"
+msgstr ""
+
+#: includes/meta-data.php:314
+msgid "Page Heading"
+msgstr ""
+
+#: includes/meta-data.php:315
+msgid "Enable/disable page heading or custom page heading."
+msgstr ""
+
+#: includes/meta-data.php:320
+msgid "Heading - ( breadcrumbs & page title  )"
+msgstr ""
+
+#: includes/meta-data.php:321
+msgid "Use Revolution Slider"
+msgstr ""
+
+#: includes/meta-data.php:322
+msgid "Hide"
+msgstr ""
+
+#: includes/meta-data.php:326
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/meta-data.php:327
+msgid "Select your Revolution Slider."
+msgstr ""
+
+#: includes/meta-data.php:334
+msgid "Content Page no Padding"
+msgstr ""
+
+#: includes/meta-data.php:335
+msgid "If checked. content of page  with no padding top and padding bottom"
+msgstr ""
+
+#: includes/meta-data.php:382
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/meta-data.php:383
+msgid "Select sidebar for page with 2 or 3 colums."
+msgstr ""
+
+#: includes/post-type-actor.php:40
+msgctxt "slug"
+msgid "actor"
+msgstr ""
+
+#: includes/post-type-actor.php:48 includes/post-type-actor.php:49
+#: includes/post-type-movie.php:278 includes/post-type-video.php:1074
+msgid "Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:50
+msgctxt "Admin menu name"
+msgid "Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:51 includes/post-type-actor.php:52
+msgid "Add Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:53 includes/post-type-channel.php:107
+#: includes/post-type-director.php:53 includes/post-type-movie.php:97
+#: includes/post-type-playlist.php:48 includes/post-type-series.php:44
+#: includes/post-type-video.php:108
+msgid "Edit"
+msgstr ""
+
+#: includes/post-type-actor.php:54
+msgid "Edit Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:55
+msgid "New Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:56 includes/post-type-actor.php:57
+msgid "View Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:58
+msgid "Search Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:59
+msgid "No Actor found"
+msgstr ""
+
+#: includes/post-type-actor.php:60
+msgid "No Actor found in trash"
+msgstr ""
+
+#: includes/post-type-actor.php:61
+msgid "Parent Actor"
+msgstr ""
+
+#: includes/post-type-actor.php:100 includes/post-type-actor.php:137
+msgid "Nickname:"
+msgstr ""
+
+#: includes/post-type-actor.php:107 includes/post-type-actor.php:145
+#: includes/post-type-director.php:107 includes/post-type-director.php:145
+msgid "Born:"
+msgstr ""
+
+#: includes/post-type-actor.php:108 includes/post-type-director.php:108
+msgid " in "
+msgstr ""
+
+#: includes/post-type-actor.php:115 includes/post-type-actor.php:159
+#: includes/post-type-director.php:115 includes/post-type-director.php:159
+msgid "Lives in:"
+msgstr ""
+
+#: includes/post-type-actor.php:121 includes/post-type-actor.php:167
+#: includes/post-type-director.php:121 includes/post-type-director.php:167
+msgid "Height:"
+msgstr ""
+
+#: includes/post-type-actor.php:130
+msgid "Actor Info"
+msgstr ""
+
+#: includes/post-type-actor.php:151 includes/post-type-director.php:151
+msgid "Address:"
+msgstr ""
+
+#: includes/post-type-actor.php:188 includes/post-type-channel.php:288
+#: includes/post-type-director.php:188 includes/post-type-playlist.php:142
+#: includes/post-type-series.php:124 includes/post-type-video.php:835
+#: includes/post-type-video.php:925
+msgid "Image"
+msgstr ""
+
+#: includes/post-type-actor.php:189 includes/post-type-channel.php:289
+#: includes/post-type-director.php:189 includes/post-type-playlist.php:143
+#: includes/post-type-series.php:125
+msgid "Name"
+msgstr ""
+
+#: includes/post-type-actor.php:190 includes/post-type-channel.php:290
+#: includes/post-type-director.php:190 includes/post-type-movie.php:443
+#: includes/post-type-playlist.php:145 includes/post-type-series.php:126
+#: includes/post-type-video.php:720
+msgid "Author"
+msgstr ""
+
+#: includes/post-type-actor.php:191 includes/post-type-channel.php:294
+#: includes/post-type-director.php:191 includes/post-type-movie.php:447
+#: includes/post-type-playlist.php:146 includes/post-type-series.php:127
+#: includes/post-type-video.php:724
+msgid "Date"
+msgstr ""
+
+#: includes/post-type-actor.php:355 includes/post-type-director.php:355
+#: includes/post-type-movie.php:232 includes/post-type-movie.php:238
+#: includes/post-type-playlist.php:348 includes/post-type-series.php:178
+#: includes/post-type-video.php:104
+msgid "Video"
+msgstr ""
+
+#: includes/post-type-actor.php:355 includes/post-type-director.php:355
+#: includes/post-type-playlist.php:348 includes/post-type-series.php:178
+#: includes/post-type-video.php:103
+msgid "Videos"
+msgstr ""
+
+#: includes/post-type-actor.php:403 includes/post-type-director.php:403
+msgid "VIDEOS"
+msgstr ""
+
+#: includes/post-type-actor.php:494 includes/post-type-director.php:494
+msgid "FILMOGRAPHY"
+msgstr ""
+
+#: includes/post-type-channel.php:20
+msgid "Subscribe"
+msgstr ""
+
+#: includes/post-type-channel.php:21
+msgid "Unsubscribe"
+msgstr ""
+
+#: includes/post-type-channel.php:22
+msgid "Subscription removed"
+msgstr ""
+
+#: includes/post-type-channel.php:23
+msgid "Subscribed"
+msgstr ""
+
+#: includes/post-type-channel.php:24
+msgid "Subscription added"
+msgstr ""
+
+#: includes/post-type-channel.php:94
+msgctxt "slug"
+msgid "channel"
+msgstr ""
+
+#: includes/post-type-channel.php:103 includes/post-type-playlist.php:120
+#: includes/post-type-playlist.php:144 includes/post-type-video.php:525
+#: includes/post-type-video.php:532 includes/post-type-video.php:716
+msgid "Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:104
+msgctxt "Admin menu name"
+msgid "Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:105 includes/post-type-channel.php:106
+msgid "Add New Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:108
+msgid "Edit Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:109
+msgid "New Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:110 includes/post-type-channel.php:111
+msgid "View Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:112
+msgid "Search Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:113
+msgid "No Channel found"
+msgstr ""
+
+#: includes/post-type-channel.php:114
+msgid "No Channel found in trash"
+msgstr ""
+
+#: includes/post-type-channel.php:115
+msgid "Parent Even"
+msgstr ""
+
+#: includes/post-type-channel.php:137
+msgid "Channel Settings"
+msgstr ""
+
+#: includes/post-type-channel.php:144
+msgid "Add videos, playlists to Channel"
+msgstr ""
+
+#: includes/post-type-channel.php:150
+msgid ""
+"You can add mixed videos and playlists manually one by one to your channel "
+"Or form YouTube channel."
+msgstr ""
+
+#: includes/post-type-channel.php:153 includes/post-type-playlist.php:106
+msgid "Manually"
+msgstr ""
+
+#: includes/post-type-channel.php:154
+msgid "YouTube channel"
+msgstr ""
+
+#: includes/post-type-channel.php:156
+msgid "YouTube Channel ID"
+msgstr ""
+
+#: includes/post-type-channel.php:163
+msgid ""
+"Automatic youtube playlist ID. Is the last part of the URL https://www."
+"youtube.com/channel/UCHqaLr9a9M7g9QN6xem9HcQ. youtubeChannelID: "
+"\"UCHqaLr9a9M7g9QN6xem9HcQ\""
+msgstr ""
+
+#: includes/post-type-channel.php:169
+msgid "Channel Icon"
+msgstr ""
+
+#: includes/post-type-channel.php:183
+msgid "Social Account"
+msgstr ""
+
+#: includes/post-type-channel.php:192
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/post-type-channel.php:196
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/post-type-channel.php:200
+msgid "Google+ URL"
+msgstr ""
+
+#: includes/post-type-channel.php:204
+msgid "Youtube URL"
+msgstr ""
+
+#: includes/post-type-channel.php:205
+msgid "Vimeo URL"
+msgstr ""
+
+#: includes/post-type-channel.php:209
+msgid "Pinterest URL"
+msgstr ""
+
+#: includes/post-type-channel.php:213
+msgid "LinkedIn URL"
+msgstr ""
+
+#: includes/post-type-channel.php:214
+msgid "RSS URL"
+msgstr ""
+
+#: includes/post-type-channel.php:218
+msgid "Instagram URL"
+msgstr ""
+
+#: includes/post-type-channel.php:219
+msgid "GitHub URL"
+msgstr ""
+
+#: includes/post-type-channel.php:223
+msgid "Behance URL"
+msgstr ""
+
+#: includes/post-type-channel.php:227
+msgid "Stack Exchange URL"
+msgstr ""
+
+#: includes/post-type-channel.php:228
+msgid "Tumblr URL"
+msgstr ""
+
+#: includes/post-type-channel.php:232
+msgid "SoundCloud URL"
+msgstr ""
+
+#: includes/post-type-channel.php:236
+msgid "Dribbble URL"
+msgstr ""
+
+#: includes/post-type-channel.php:240
+msgid "Open Social Link in new tab"
+msgstr ""
+
+#: includes/post-type-channel.php:242
+msgid "Open link in new tab?"
+msgstr ""
+
+#: includes/post-type-channel.php:292 includes/post-type-channel.php:293
+#: includes/post-type-movie.php:445 includes/post-type-movie.php:446
+#: includes/post-type-video.php:722 includes/post-type-video.php:723
+msgid "Comments"
+msgstr ""
+
+#: includes/post-type-channel.php:468 includes/post-type-movie.php:560
+#: includes/post-type-video.php:1192
+#, php-format
+msgid "We found %1$s available for you"
+msgstr ""
+
+#: includes/post-type-channel.php:469
+#, php-format
+msgid "%s channel"
+msgid_plural "%s channels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post-type-channel.php:490
+msgid "Please rate the channel."
+msgstr ""
+
+#: includes/post-type-channel.php:542 includes/post-type-video.php:1192
+#, php-format
+msgid "%s Video"
+msgid_plural "%s Videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post-type-channel.php:542
+#, php-format
+msgid "%s Videos"
+msgstr ""
+
+#: includes/post-type-channel.php:577
+msgid "Rate:"
+msgstr ""
+
+#: includes/post-type-channel.php:579
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: includes/post-type-channel.php:581
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: includes/post-type-channel.php:582
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post-type-channel.php:587
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post-type-channel.php:731
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: includes/post-type-channel.php:733
+msgid "out of 5"
+msgstr ""
+
+#: includes/post-type-channel.php:756
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: includes/post-type-channel.php:936
+msgid "Facebook"
+msgstr ""
+
+#: includes/post-type-channel.php:940
+msgid "Twitter"
+msgstr ""
+
+#: includes/post-type-channel.php:944
+msgid "Google+"
+msgstr ""
+
+#: includes/post-type-channel.php:948
+msgid "Youtube"
+msgstr ""
+
+#: includes/post-type-channel.php:956
+msgid "Pinterest"
+msgstr ""
+
+#: includes/post-type-channel.php:960
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/post-type-channel.php:964
+msgid "RSS"
+msgstr ""
+
+#: includes/post-type-channel.php:968
+msgid "Instagram"
+msgstr ""
+
+#: includes/post-type-channel.php:972
+msgid "GitHub"
+msgstr ""
+
+#: includes/post-type-channel.php:976
+msgid "Behance"
+msgstr ""
+
+#: includes/post-type-channel.php:980
+msgid "StackExchange"
+msgstr ""
+
+#: includes/post-type-channel.php:984
+msgid "Tumblr"
+msgstr ""
+
+#: includes/post-type-channel.php:988
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/post-type-channel.php:992
+msgid "Dribbble"
+msgstr ""
+
+#: includes/post-type-director.php:40
+msgctxt "slug"
+msgid "director"
+msgstr ""
+
+#: includes/post-type-director.php:48 includes/post-type-director.php:49
+#: includes/post-type-video.php:608
+msgid "Director"
+msgstr ""
+
+#: includes/post-type-director.php:50
+msgctxt "Admin menu name"
+msgid "Director"
+msgstr ""
+
+#: includes/post-type-director.php:51 includes/post-type-director.php:52
+msgid "Add Director"
+msgstr ""
+
+#: includes/post-type-director.php:54
+msgid "Edit Director"
+msgstr ""
+
+#: includes/post-type-director.php:55
+msgid "New Director"
+msgstr ""
+
+#: includes/post-type-director.php:56 includes/post-type-director.php:57
+msgid "View Director"
+msgstr ""
+
+#: includes/post-type-director.php:58
+msgid "Search Director"
+msgstr ""
+
+#: includes/post-type-director.php:59
+msgid "No Director found"
+msgstr ""
+
+#: includes/post-type-director.php:60
+msgid "No Director found in trash"
+msgstr ""
+
+#: includes/post-type-director.php:61
+msgid "Parent Director"
+msgstr ""
+
+#: includes/post-type-director.php:100 includes/post-type-director.php:137
+msgid "Birth Name:"
+msgstr ""
+
+#: includes/post-type-director.php:130
+msgid "Director Info"
+msgstr ""
+
+#: includes/post-type-movie.php:92
+msgid "Movies"
+msgstr ""
+
+#: includes/post-type-movie.php:93
+msgid "Movie"
+msgstr ""
+
+#: includes/post-type-movie.php:94
+msgctxt "Admin menu name"
+msgid "Movies"
+msgstr ""
+
+#: includes/post-type-movie.php:95 includes/post-type-movie.php:96
+msgid "Add New"
+msgstr ""
+
+#: includes/post-type-movie.php:98
+msgid "Edit Movie"
+msgstr ""
+
+#: includes/post-type-movie.php:99
+msgid "New Movie"
+msgstr ""
+
+#: includes/post-type-movie.php:100 includes/post-type-movie.php:101
+msgid "View Movie"
+msgstr ""
+
+#: includes/post-type-movie.php:102
+msgid "Search Movies"
+msgstr ""
+
+#: includes/post-type-movie.php:103
+msgid "No Movies found"
+msgstr ""
+
+#: includes/post-type-movie.php:104
+msgid "No Movies found in trash"
+msgstr ""
+
+#: includes/post-type-movie.php:105
+msgid "Parent Movie"
+msgstr ""
+
+#: includes/post-type-movie.php:126 includes/post-type-movie.php:134
+msgid "Movie Genres"
+msgstr ""
+
+#: includes/post-type-movie.php:127
+msgid "Genre"
+msgstr ""
+
+#: includes/post-type-movie.php:128
+msgid "Search Genres"
+msgstr ""
+
+#: includes/post-type-movie.php:129
+msgid "All Genres"
+msgstr ""
+
+#: includes/post-type-movie.php:130
+msgid "Edit Genre"
+msgstr ""
+
+#: includes/post-type-movie.php:131
+msgid "Update Genre"
+msgstr ""
+
+#: includes/post-type-movie.php:132
+msgid "Add New Genre"
+msgstr ""
+
+#: includes/post-type-movie.php:133
+msgid "New Genre"
+msgstr ""
+
+#: includes/post-type-movie.php:139
+msgctxt "slug"
+msgid "movie-genre"
+msgstr ""
+
+#: includes/post-type-movie.php:154
+msgid "Movie Specifics"
+msgstr ""
+
+#: includes/post-type-movie.php:163
+msgid "Movie Picture"
+msgstr ""
+
+#: includes/post-type-movie.php:164
+msgid "Please upload an image related to the Movie."
+msgstr ""
+
+#: includes/post-type-movie.php:166 includes/post-type-video.php:299
+msgid "Duration"
+msgstr ""
+
+#: includes/post-type-movie.php:171
+msgid "Please enter the length of the movie in minutes."
+msgstr ""
+
+#: includes/post-type-movie.php:174
+msgid "Movie Rating"
+msgstr ""
+
+#: includes/post-type-movie.php:179
+msgid ""
+"Please rate the movie. 0 being garbage and 10 being the best movie in the "
+"history of the Universe."
+msgstr ""
+
+#: includes/post-type-movie.php:182
+msgid "Movie Release Date"
+msgstr ""
+
+#: includes/post-type-movie.php:186
+msgid "Please choose the date the movie was released to theatres."
+msgstr ""
+
+#: includes/post-type-movie.php:189
+msgid "Movie Country"
+msgstr ""
+
+#: includes/post-type-movie.php:195
+msgid "Please choose the country where the move was filmed."
+msgstr ""
+
+#: includes/post-type-movie.php:198 includes/post-type-video.php:600
+msgid "Main Language"
+msgstr ""
+
+#: includes/post-type-movie.php:203
+msgid "Please choose the main language in the movie."
+msgstr ""
+
+#: includes/post-type-movie.php:206
+msgid "Movie Budget"
+msgstr ""
+
+#: includes/post-type-movie.php:211
+msgid "Please enter the crazy amount of money spent to create this film."
+msgstr ""
+
+#: includes/post-type-movie.php:214
+msgid "Opening Weekend Revenue"
+msgstr ""
+
+#: includes/post-type-movie.php:219
+msgid ""
+"Please enter the amount of money the movie made in it is opening weekend."
+msgstr ""
+
+#: includes/post-type-movie.php:223
+msgid "Movie Player"
+msgstr ""
+
+#: includes/post-type-movie.php:226
+msgid "Select movie player type"
+msgstr ""
+
+#: includes/post-type-movie.php:233 includes/post-type-movie.php:248
+#: includes/post-type-series.php:39 includes/post-type-series.php:40
+#: includes/post-type-video.php:546 includes/post-type-video.php:553
+msgid "Series"
+msgstr ""
+
+#: includes/post-type-movie.php:234 includes/post-type-movie.php:258
+#: includes/post-type-playlist.php:44 includes/post-type-video.php:504
+#: includes/post-type-video.php:511 includes/post-type-video.php:715
+msgid "Playlist"
+msgstr ""
+
+#: includes/post-type-movie.php:245
+msgid "Select video for watching the movie"
+msgstr ""
+
+#: includes/post-type-movie.php:255
+msgid "Select series for watching the movie"
+msgstr ""
+
+#: includes/post-type-movie.php:265
+msgid "Select playlist for watching the movie"
+msgstr ""
+
+#: includes/post-type-movie.php:268
+msgid "URL"
+msgstr ""
+
+#: includes/post-type-movie.php:273
+msgid ""
+"The link to watching the movie. It will be overridden the \"Select movie "
+"player type\" option."
+msgstr ""
+
+#: includes/post-type-movie.php:282 includes/post-type-video.php:615
+msgid "Actors"
+msgstr ""
+
+#: includes/post-type-movie.php:288 includes/post-type-video.php:621
+msgid "Add actor members."
+msgstr ""
+
+#: includes/post-type-movie.php:314 includes/post-type-video.php:1015
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: includes/post-type-movie.php:315 includes/post-type-video.php:1016
+msgid "Genres:"
+msgstr ""
+
+#: includes/post-type-movie.php:322 includes/post-type-video.php:1023
+msgid "Release Date:"
+msgstr ""
+
+#: includes/post-type-movie.php:328 includes/post-type-video.php:1029
+msgid "Duration:"
+msgstr ""
+
+#: includes/post-type-movie.php:328
+msgid " mins"
+msgstr ""
+
+#: includes/post-type-movie.php:334
+msgid "Rating:"
+msgstr ""
+
+#: includes/post-type-movie.php:340 includes/post-type-video.php:1035
+msgid "Country:"
+msgstr ""
+
+#: includes/post-type-movie.php:346 includes/post-type-video.php:1041
+msgid "Language:"
+msgstr ""
+
+#: includes/post-type-movie.php:352
+msgid "Budget:"
+msgstr ""
+
+#: includes/post-type-movie.php:358
+msgid "Opening Weekend:"
+msgstr ""
+
+#: includes/post-type-movie.php:376
+msgid "Actor:"
+msgstr ""
+
+#: includes/post-type-movie.php:417
+msgid "WATCH NOW"
+msgstr ""
+
+#: includes/post-type-movie.php:442
+msgid "Genres"
+msgstr ""
+
+#: includes/post-type-movie.php:477 includes/post-type-video.php:773
+msgid "Toggle featured"
+msgstr ""
+
+#: includes/post-type-movie.php:560
+#, php-format
+msgid "%s Movie"
+msgid_plural "%s Movies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/post-type-playlist.php:35
+msgctxt "slug"
+msgid "playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:45
+msgctxt "Admin menu name"
+msgid "Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:46 includes/post-type-playlist.php:47
+msgid "Add New Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:49
+msgid "Edit Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:50
+msgid "New Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:51 includes/post-type-playlist.php:52
+msgid "View Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:53
+msgid "Search Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:54
+msgid "No Playlist found"
+msgstr ""
+
+#: includes/post-type-playlist.php:55
+msgid "No Playlist found in trash"
+msgstr ""
+
+#: includes/post-type-playlist.php:56
+msgid "Parent Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:92
+msgid "Playlist Settings"
+msgstr ""
+
+#: includes/post-type-playlist.php:99
+msgid "Add videos to playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:104
+msgid ""
+"You can add videos manually one by one to your playlist (mixed videos) Or "
+"form YouTube playlist."
+msgstr ""
+
+#: includes/post-type-playlist.php:107
+msgid "YouTube Playlist"
+msgstr ""
+
+#: includes/post-type-playlist.php:111
+msgid "YouTube Playlist ID"
+msgstr ""
+
+#: includes/post-type-playlist.php:117
+msgid ""
+"Automatic youtube playlist ID. Is the last part of the URL https://www."
+"youtube.com/watch?v=HIJ0-u67Aeo&list=PL_HbKbJsShUhl9s6GyBPRvZ6glDBpq6k4. "
+"youtubePlaylistID: \"PL_HbKbJsShUhl9s6GyBPRvZ6glDBpq6k4\""
+msgstr ""
+
+#: includes/post-type-playlist.php:125
+msgid "Add this playlist to a channel."
+msgstr ""
+
+#: includes/post-type-playlist.php:318 includes/post-type-video.php:797
+#: includes/post-type-video.php:814
+msgid "Experiace: "
+msgstr ""
+
+#: includes/post-type-series.php:31
+msgctxt "slug"
+msgid "series"
+msgstr ""
+
+#: includes/post-type-series.php:41
+msgctxt "Admin menu name"
+msgid "Series"
+msgstr ""
+
+#: includes/post-type-series.php:42 includes/post-type-series.php:43
+msgid "Add New Series"
+msgstr ""
+
+#: includes/post-type-series.php:45
+msgid "Edit Series"
+msgstr ""
+
+#: includes/post-type-series.php:46
+msgid "New Series"
+msgstr ""
+
+#: includes/post-type-series.php:47 includes/post-type-series.php:48
+msgid "View Series"
+msgstr ""
+
+#: includes/post-type-series.php:49
+msgid "Search Series"
+msgstr ""
+
+#: includes/post-type-series.php:50
+msgid "No Series found"
+msgstr ""
+
+#: includes/post-type-series.php:51
+msgid "No Series found in trash"
+msgstr ""
+
+#: includes/post-type-series.php:52
+msgid "Parent Series"
+msgstr ""
+
+#: includes/post-type-series.php:74
+msgid "Series Settings"
+msgstr ""
+
+#: includes/post-type-series.php:81
+msgid "Release Year"
+msgstr ""
+
+#: includes/post-type-series.php:86
+msgid "Year of release. Date string appears as you enter."
+msgstr ""
+
+#: includes/post-type-series.php:89
+msgid "Creators"
+msgstr ""
+
+#: includes/post-type-series.php:94
+msgid "Enter the Creators, separated by a comma."
+msgstr ""
+
+#: includes/post-type-video.php:105
+msgctxt "Admin menu name"
+msgid "Videos"
+msgstr ""
+
+#: includes/post-type-video.php:109
+msgid "Edit Video"
+msgstr ""
+
+#: includes/post-type-video.php:110
+msgid "New Video"
+msgstr ""
+
+#: includes/post-type-video.php:111 includes/post-type-video.php:112
+msgid "View Video"
+msgstr ""
+
+#: includes/post-type-video.php:113
+msgid "Search Videos"
+msgstr ""
+
+#: includes/post-type-video.php:114
+msgid "No Videos found"
+msgstr ""
+
+#: includes/post-type-video.php:115
+msgid "No Videos found in trash"
+msgstr ""
+
+#: includes/post-type-video.php:116
+msgid "Parent Video"
+msgstr ""
+
+#: includes/post-type-video.php:138
+msgid "Category"
+msgstr ""
+
+#: includes/post-type-video.php:139
+msgid "Search Categories"
+msgstr ""
+
+#: includes/post-type-video.php:140
+msgid "All Categories"
+msgstr ""
+
+#: includes/post-type-video.php:141
+msgid "Edit Category"
+msgstr ""
+
+#: includes/post-type-video.php:142
+msgid "Update Category"
+msgstr ""
+
+#: includes/post-type-video.php:143
+msgid "Add New Category"
+msgstr ""
+
+#: includes/post-type-video.php:144
+msgid "New Category"
+msgstr ""
+
+#: includes/post-type-video.php:150
+msgctxt "slug"
+msgid "video-category"
+msgstr ""
+
+#: includes/post-type-video.php:158
+msgid "Tag"
+msgstr ""
+
+#: includes/post-type-video.php:159
+msgid "Search Tags"
+msgstr ""
+
+#: includes/post-type-video.php:160
+msgid "All Tags"
+msgstr ""
+
+#: includes/post-type-video.php:161
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/post-type-video.php:162
+msgid "Update Tag"
+msgstr ""
+
+#: includes/post-type-video.php:163
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/post-type-video.php:164
+msgid "New Tag"
+msgstr ""
+
+#: includes/post-type-video.php:170
+msgctxt "slug"
+msgid "video-tag"
+msgstr ""
+
+#: includes/post-type-video.php:178 includes/post-type-video.php:179
+#: includes/post-type-video.php:186
+msgid "Badges"
+msgstr ""
+
+#: includes/post-type-video.php:180
+msgid "Search"
+msgstr ""
+
+#: includes/post-type-video.php:181
+msgid "All Badges"
+msgstr ""
+
+#: includes/post-type-video.php:182
+msgid "Edit Badge"
+msgstr ""
+
+#: includes/post-type-video.php:183
+msgid "Update Badge"
+msgstr ""
+
+#: includes/post-type-video.php:184
+msgid "Add New Badge"
+msgstr ""
+
+#: includes/post-type-video.php:185
+msgid "New Badge"
+msgstr ""
+
+#: includes/post-type-video.php:191
+msgctxt "slug"
+msgid "video-badge"
+msgstr ""
+
+#: includes/post-type-video.php:214
+msgid "Video page Layout"
+msgstr ""
+
+#: includes/post-type-video.php:227
+msgid "Video player Layout"
+msgstr ""
+
+#: includes/post-type-video.php:233
+msgid "Top Header"
+msgstr ""
+
+#: includes/post-type-video.php:240
+msgid "Video player settings"
+msgstr ""
+
+#: includes/post-type-video.php:265
+msgid "Enable MP4 Download"
+msgstr ""
+
+#: includes/post-type-video.php:269
+msgid "enable download button for self hosted videos"
+msgstr ""
+
+#: includes/post-type-video.php:308
+msgid "Video Multi Links settings"
+msgstr ""
+
+#: includes/post-type-video.php:312
+msgid "Multi Links"
+msgstr ""
+
+#: includes/post-type-video.php:318
+msgid "Pre Roll Video Advertisement"
+msgstr ""
+
+#: includes/post-type-video.php:321
+msgid "Show Pre Roll Video Ad?"
+msgstr ""
+
+#: includes/post-type-video.php:322
+msgid "Pre Roll advertisement will show at the start of the video."
+msgstr ""
+
+#: includes/post-type-video.php:332
+msgid "Pre Roll Video Ad Link URL"
+msgstr ""
+
+#: includes/post-type-video.php:336
+msgid "pre-roll goto link."
+msgstr ""
+
+#: includes/post-type-video.php:339
+msgid "Pre Roll Video Ad MP4 , HLS m3u8 (url)"
+msgstr ""
+
+#: includes/post-type-video.php:344
+msgid "pre-roll video mp4 format, HLS m3u8."
+msgstr ""
+
+#: includes/post-type-video.php:347
+msgid "Pre Roll Video Skip Timer"
+msgstr ""
+
+#: includes/post-type-video.php:354 includes/post-type-video.php:404
+#: includes/post-type-video.php:444
+msgid "(sec)"
+msgstr ""
+
+#: includes/post-type-video.php:359
+msgid "Mid Roll Video Advertisement"
+msgstr ""
+
+#: includes/post-type-video.php:362
+msgid "Show Mid Roll Video Ad?"
+msgstr ""
+
+#: includes/post-type-video.php:363
+msgid ""
+"Show Mid Roll advertisement at any custom time in format \"minutes:seconds"
+"\" (\"00:00\")"
+msgstr ""
+
+#: includes/post-type-video.php:373
+msgid "Mid Roll Video Ad Display Time"
+msgstr ""
+
+#: includes/post-type-video.php:380
+msgid "\"minutes:seconds\" (\"00:00\")"
+msgstr ""
+
+#: includes/post-type-video.php:383
+msgid "Mid Roll Video Ad Link URL"
+msgstr ""
+
+#: includes/post-type-video.php:387
+msgid "mid-roll goto link."
+msgstr ""
+
+#: includes/post-type-video.php:390
+msgid "Mid Roll Video Ad MP4, HLS m3u8 (URL)"
+msgstr ""
+
+#: includes/post-type-video.php:394
+msgid "mid-roll video mp4 format, HLS m3u8."
+msgstr ""
+
+#: includes/post-type-video.php:397
+msgid "Mid Roll Video Skip Timer"
+msgstr ""
+
+#: includes/post-type-video.php:409
+msgid "Post Roll Video Advertisement"
+msgstr ""
+
+#: includes/post-type-video.php:412
+msgid "Show Post Roll Video Ad?"
+msgstr ""
+
+#: includes/post-type-video.php:413
+msgid "Post Roll advertisement will show at the end of the video."
+msgstr ""
+
+#: includes/post-type-video.php:423
+msgid "Post Roll Video Ad Link URL"
+msgstr ""
+
+#: includes/post-type-video.php:427
+msgid "post-roll goto link."
+msgstr ""
+
+#: includes/post-type-video.php:430
+msgid "Post Roll Video Ad MP4, HLS m3u8 (URL)"
+msgstr ""
+
+#: includes/post-type-video.php:434
+msgid "post-roll video mp4 format."
+msgstr ""
+
+#: includes/post-type-video.php:437
+msgid "Post Roll Video Skip Timer"
+msgstr ""
+
+#: includes/post-type-video.php:449
+msgid "PopUp Video Advertisement"
+msgstr ""
+
+#: includes/post-type-video.php:452
+msgid "Show Pop-up Ad?"
+msgstr ""
+
+#: includes/post-type-video.php:453
+msgid ""
+"You can set when to show and hide pop-up image ad (in format minutes:"
+"seconds)."
+msgstr ""
+
+#: includes/post-type-video.php:466
+msgid "Popup Image URL"
+msgstr ""
+
+#: includes/post-type-video.php:471
+msgid "Pop-up Ad Start Time"
+msgstr ""
+
+#: includes/post-type-video.php:478
+msgid "Time to show popup ad during playback (sec)"
+msgstr ""
+
+#: includes/post-type-video.php:481
+msgid "Pop-up Ad End Time"
+msgstr ""
+
+#: includes/post-type-video.php:488
+msgid "Time to hide popup ad during playback (sec)"
+msgstr ""
+
+#: includes/post-type-video.php:491
+msgid "Pop-up Ad Link URL"
+msgstr ""
+
+#: includes/post-type-video.php:495
+msgid "re-direct to URL when popup ad clicked."
+msgstr ""
+
+#: includes/post-type-video.php:517
+msgid "Add this video to a playlist."
+msgstr ""
+
+#: includes/post-type-video.php:538
+msgid "Add this video to a channel."
+msgstr ""
+
+#: includes/post-type-video.php:559
+msgid "Add this video to a Series."
+msgstr ""
+
+#: includes/post-type-video.php:562
+msgid "Number order in Series."
+msgstr ""
+
+#: includes/post-type-video.php:568
+msgid "Enter order of this video in series"
+msgstr ""
+
+#: includes/post-type-video.php:576
+msgid "Video Specifics"
+msgstr ""
+
+#: includes/post-type-video.php:583
+msgid "Release Date"
+msgstr ""
+
+#: includes/post-type-video.php:587
+msgid "Please choose the date the video was released to theatres."
+msgstr ""
+
+#: includes/post-type-video.php:590
+msgid "Video Country"
+msgstr ""
+
+#: includes/post-type-video.php:595
+msgid "Choose a Country..."
+msgstr ""
+
+#: includes/post-type-video.php:597
+msgid "Please choose the country where the video was filmed."
+msgstr ""
+
+#: includes/post-type-video.php:605
+msgid "Please choose the main language in the video."
+msgstr ""
+
+#: includes/post-type-video.php:624
+msgid "Actor Style"
+msgstr ""
+
+#: includes/post-type-video.php:629
+msgid "Grid"
+msgstr ""
+
+#: includes/post-type-video.php:630
+msgid "Slider"
+msgstr ""
+
+#: includes/post-type-video.php:717
+msgid "Categories"
+msgstr ""
+
+#: includes/post-type-video.php:718
+msgid "Tags"
+msgstr ""
+
+#: includes/post-type-video.php:719
+msgid "Featured?"
+msgstr ""
+
+#: includes/post-type-video.php:839 includes/post-type-video.php:930
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/post-type-video.php:840 includes/post-type-video.php:931
+msgid "Remove image"
+msgstr ""
+
+#: includes/post-type-video.php:862 includes/post-type-video.php:955
+msgid "Choose an image"
+msgstr ""
+
+#: includes/post-type-video.php:864 includes/post-type-video.php:957
+msgid "Use image"
+msgstr ""
+
+#: includes/post-type-video.php:1049
+msgid "Director:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Viem Ultimate"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Ultimate addons for Viem"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes Team"
+msgstr ""

@@ -1,0 +1,75 @@
+/**
+ * 6.11 404 Page
+ * -----------------------------------------------------------------------------
+ */
+.error404{
+	#main.site-main{
+		margin: 0;
+		padding: 0;
+		min-height: auto;
+	}
+	#main-content{
+		.page-content {
+			padding-top: 118px;
+    		padding-bottom: 100px;
+			text-align: center;
+			.not-found-content{
+				.page_not_found_bg{
+					margin-bottom: 30px;
+				}
+
+				h2{
+					margin: 0 0 30px 0;
+					color: $background-secondary-color;
+					font-size: 2.5em;
+					@media (min-width: 768px){
+						font-size: 5em;
+					}
+				}
+
+				.not-found-desc{
+					.btn{
+						background: $secondary-color;
+						border-color: $secondary-color;
+						color: #ffffff;
+						text-transform: uppercase;
+						font-size: 1.143em;
+						text-decoration: none;
+					}
+				}
+			}
+			.search-form {
+				margin-bottom: 24px;
+				label{
+					max-width: 1023px;
+					width: 100%;
+					input.search-field{
+						background: #ffffff;
+						padding: 0 20px;
+					}
+				}
+				.search-submit{
+					background: $main-color;
+					color: #ffffff;
+					border: 2px solid $main-color;
+					height: 100%;
+					right: 0;
+					top: 0;
+					@include border-radius(0px);
+					i{
+						margin-right: 5px;
+					}
+					@media(min-width: 992px){
+						padding: 0 50px;
+					}
+				}
+				input{
+					height: 50px;
+					border: 2px solid #b5b5b5;
+					line-height: 50px;
+					border-radius: 0;
+				}
+			}
+		}
+	}
+}

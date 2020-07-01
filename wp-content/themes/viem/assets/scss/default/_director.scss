@@ -1,0 +1,59 @@
+/**
+ * 6.18 - Director
+ * -----------------------------------------------------------------------------
+ */
+.post-type-archive-viem_director{
+	.posts article .entry-featured {
+	    margin-bottom: 15px;
+	}
+}
+ // Single
+ .single-viem_director{
+ 	.overview{
+ 		padding-bottom: 40px;
+ 		margin-bottom: 40px;
+ 		@include theme-border-bottom-shape();
+ 		@include clearfix();
+ 		.profile-avatar{
+ 			margin-bottom: 20px;
+ 			img{
+				width: 150px;
+				height: auto;
+			}
+ 		}
+ 		@media(min-width: 360px){
+ 			display: table;
+			width: 100%;
+ 			.profile-avatar{
+ 				display: table-cell;
+				vertical-align: top;
+				width: 150px;
+ 			}
+ 			.profile-avatar + .director-info{
+ 				display: table-cell;
+				vertical-align: top;
+ 				padding-left: 30px;
+ 			}
+ 		}
+ 		.single_director_overview{
+ 			.director-info{
+			    margin-bottom: 10px;
+			    span{
+			    	color: #999999;
+			    }
+ 			}
+ 		}
+ 	}
+ 	.entry-header{
+ 		.entry-title{
+ 			font-size: 1.5em;
+ 			font-weight: 500;
+ 			margin-bottom: 20px;
+ 		}
+ 	}
+
+ 	.viem_directors-video,
+ 	.viem_directors-movie{
+ 		@include theme-margin-top-default();
+ 	}
+ }

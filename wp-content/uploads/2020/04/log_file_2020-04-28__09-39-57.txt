@@ -1,0 +1,81 @@
+
+---Downloaded files---
+The import files for: Main were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://tv.petracc.org
+Data file = /home2/mactavi1/public_html/tv/wp-content/themes/vodi/assets/dummy-data/main/dummy-data.xml
+Widget file = /home2/mactavi1/public_html/tv/wp-content/themes/vodi/assets/dummy-data/main/widgets.wie
+Customizer file = not defined!
+Redux files:
+vodi_options -> /home2/mactavi1/public_html/tv/wp-content/themes/vodi/assets/dummy-data/main/redux-options.json 
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Text - No Title - Imported
+Search - No Title - Imported
+Vodi Posts Widget - What&#039;s hot - Imported
+Vodi Posts Widget - Hot Rumors - Imported
+Vodi Tab Widget - No Title - Imported
+Vodi Posts Widget - Upcoming Movies - Imported
+Recent Comments - No Title - Imported
+
+Movie Sidebar : 
+
+MAS Videos Movies - Top 5 List - Imported
+
+TV Show Sidebar : 
+
+MAS Videos TV Shows - Popular Now TV Shows - Imported
+
+Video Sidebar : 
+
+MAS Videos Videos - Top 5 List - Imported
+
+Movie Filters : 
+
+MAS Videos Filter Movies by Genre - Categories - Imported
+MAS Videos Filter Movies by Tags - No Title - Imported
+Filter Movies by Year - Movies by Year - Imported
+MAS Videos Filter Movies by Rating - Filter by Rating - Imported
+
+Video Filters : 
+
+MAS Videos Filter Videos by Category - Categories - Imported
+MAS Videos Filter Videos by Rating - Filter by Rating - Imported
+
+TV Show Filters : 
+
+MAS Videos Search - No Title - Imported
+Vodi Filter TV Shows by Letter - No Title - Imported
+MAS Videos Filter TV Shows by Tags - No Title - Imported
+MAS Videos Filter TV Shows by Rating - Filter by Rating - Imported
+
+Footer Column 1 : 
+
+Navigation Menu - Movie Categories - Imported
+
+Footer Column 2 : 
+
+Navigation Menu - TV Series - Imported
+
+Footer Column 3 : 
+
+Navigation Menu - Support - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: vodi_options finished successfully!
+
+---pt-ocdi/after_import---
+

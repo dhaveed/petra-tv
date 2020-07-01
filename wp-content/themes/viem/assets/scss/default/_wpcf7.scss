@@ -1,0 +1,25 @@
+/**
+ * 13.1 wpcf7
+ * -----------------------------------------------------------------------------
+ */
+ .wpcf7{
+	input.wpcf7-form-control:not(.wpcf7-submit),
+	.wpcf7-textarea{
+
+	}
+	.wpcf7-form-control.wpcf7-submit{
+		display: inline-block;
+		vertical-align: top;
+		@include theme-btn-default();
+		background-color: #131313;
+		border-color: #131313;
+		color: #ffffff;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 1.143em;
+	}
+ }
+ .wpcf7-form p textarea, .wpcf7-form p input[type="email"], .wpcf7-form p input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+}

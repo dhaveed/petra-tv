@@ -1,0 +1,3200 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DawnThemes Core\n"
+"POT-Creation-Date: 2019-05-23 15:53+0700\n"
+"PO-Revision-Date: 2019-05-23 15:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: dawnthemes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/admin.php:63
+msgid "Tooltip Shortcode"
+msgstr ""
+
+#: includes/admin/admin.php:77 includes/admin/admin.php:78
+msgid "Text"
+msgstr ""
+
+#: includes/admin/admin.php:83
+msgid "URL"
+msgstr ""
+
+#: includes/admin/admin.php:84
+msgid "http://"
+msgstr ""
+
+#: includes/admin/admin.php:89
+msgid "Type"
+msgstr ""
+
+#: includes/admin/admin.php:91
+msgid "Tooltip"
+msgstr ""
+
+#: includes/admin/admin.php:92
+msgid "Popover"
+msgstr ""
+
+#: includes/admin/admin.php:98
+msgid "Tip position"
+msgstr ""
+
+#: includes/admin/admin.php:100
+msgid "Top"
+msgstr ""
+
+#: includes/admin/admin.php:101
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/admin.php:102
+msgid "Left"
+msgstr ""
+
+#: includes/admin/admin.php:103
+msgid "Right"
+msgstr ""
+
+#: includes/admin/admin.php:109 includes/admin/admin.php:110
+msgid "Title"
+msgstr ""
+
+#: includes/admin/admin.php:115 includes/admin/admin.php:116
+msgid "Content"
+msgstr ""
+
+#: includes/admin/admin.php:121
+msgid "Action to trigger"
+msgstr ""
+
+#: includes/admin/admin.php:123
+msgid "Hover"
+msgstr ""
+
+#: includes/admin/admin.php:124
+msgid "Click"
+msgstr ""
+
+#: includes/admin/admin.php:131
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/admin.php:134
+msgid "Add Tooltip"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:14
+msgid "General"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:16
+msgid ""
+"<p class=\"description\">Here you will set your site-wide preferences.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:23
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:24
+msgid "Upload your own logo."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:29
+msgid "Sticky Logo"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:30
+msgid "Upload your own logo.This is optional use when fixed menu"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:65
+#: includes/admin/demo-theme-options.php:142
+#: includes/admin/demo-theme-options.php:150
+#: includes/admin/demo-theme-options.php:295
+#: includes/admin/demo-theme-options.php:303
+#: includes/admin/demo-theme-options.php:317
+#: includes/admin/demo-theme-options.php:328
+#: includes/admin/demo-theme-options.php:340
+#: includes/admin/demo-theme-options.php:379
+#: includes/admin/demo-theme-options.php:393
+#: includes/admin/demo-theme-options.php:401
+#: includes/admin/demo-theme-options.php:411
+#: includes/admin/demo-theme-options.php:431
+#: includes/admin/demo-theme-options.php:439
+#: includes/admin/demo-theme-options.php:500
+#: includes/admin/demo-theme-options.php:508
+#: includes/admin/demo-theme-options.php:595
+msgid "Show"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:66
+#: includes/admin/demo-theme-options.php:143
+#: includes/admin/demo-theme-options.php:151
+#: includes/admin/demo-theme-options.php:296
+#: includes/admin/demo-theme-options.php:304
+#: includes/admin/demo-theme-options.php:318
+#: includes/admin/demo-theme-options.php:329
+#: includes/admin/demo-theme-options.php:341
+#: includes/admin/demo-theme-options.php:380
+#: includes/admin/demo-theme-options.php:394
+#: includes/admin/demo-theme-options.php:402
+#: includes/admin/demo-theme-options.php:412
+#: includes/admin/demo-theme-options.php:432
+#: includes/admin/demo-theme-options.php:440
+#: includes/admin/demo-theme-options.php:501
+#: includes/admin/demo-theme-options.php:509
+#: includes/admin/demo-theme-options.php:596
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:67
+msgid "Back To Top Button"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:70
+msgid "Toggle whether or not to enable a back to top button on your pages."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:85
+msgid "Color and Typography"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:86
+msgid "<p class=\"description\">Customize Color and Typography.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:91
+msgid "Main Color"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:92
+msgid "Choose main color of theme"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:97
+msgid "Main Font"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:98
+msgid "Font family for body text"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:104
+msgid "Secondary Font"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:105
+msgid "Font family for the secondary font (ex: heading text)"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:111
+msgid "Navigation"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:112
+msgid "Font family for the navigation"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:119
+msgid "Header"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:120
+msgid "<p class=\"description\">Customize Header.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:136
+msgid "Sticky Top menu"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:137
+msgid "Enable or disable the sticky menu."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:144
+msgid "Show Breaking News"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:145
+msgid "Apply for home page."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:152
+msgid "Show breadcrumb"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:153
+msgid "Enable or disable the site path under the page title."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:160
+msgid "Footer"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:161
+msgid "<p class=\"description\">Customize Footer.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:166
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:167
+msgid "Please enter the copyright section text."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:168
+msgid "List of allowed HTML elements: <a></a> for links, <br/> for line break."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:198
+msgid "Blog"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:199
+msgid "<p class=\"description\">Customize Blog.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:204
+msgid "List Blog Settings"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:208
+msgid "Main Blog Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:210
+msgid "Select main blog layout. Choose between 1, 2 or 3 column layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:226
+msgid "Archive Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:228
+msgid "Select Archive layout. Choose between 1, 2 or 3 column layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:244
+msgid "Style"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:245
+msgid "How your blog posts will display."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:247
+msgid "Default"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:248
+#: includes/admin/demo-theme-options.php:559
+msgid "List"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:249
+#: includes/admin/demo-theme-options.php:558
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:250
+msgid "Classic"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:251
+msgid "Masonry"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:257
+msgid "Blogs Columns"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:258
+msgid "Select blogs columns."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:267
+msgid "Pagination"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:270
+msgid "WP PageNavi"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:271
+msgid "Ajax Load More"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:272
+msgid "Infinite Scrolling"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:276
+msgid "Choose pagination type."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:279
+msgid "Load More Button Text"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:282
+msgid "Load More"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:286
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:290
+msgid "In Archive Blog. Enter the number words excerpt"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:297
+#: includes/admin/demo-theme-options.php:381
+msgid "Date Meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:298
+msgid "In Archive Blog. Show/Hide the date meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:305
+msgid "Comment Meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:306
+msgid "In Archive Blog. Show/Hide the comment meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:311
+#: includes/admin/demo-theme-options.php:387
+msgid "Show/Hide Category"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:312
+msgid "In Archive Blog. Show/Hide the category meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:322
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:323
+msgid "In Archive Blog. If enabled it will show tag."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:333
+#: includes/admin/demo-theme-options.php:395
+msgid "Author Meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:334
+msgid "In Archive Blog. Show/Hide the author meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:345
+msgid "Show/Hide Readmore"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:346
+msgid "In Archive Blog. Show/Hide the post readmore"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:355
+msgid "Single Blog Settings"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:359
+msgid "Single Blog Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:361
+msgid ""
+"Select single content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:382
+msgid "In Single Blog. Show/Hide the date meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:388
+msgid "In Single Blog. Show/Hide the category"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:396
+msgid "In Single Blog. Show/Hide the author meta"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:403
+msgid "Show/Hide Tag"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:404
+msgid "In Single Blog. If enabled it will show tag."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:413
+msgid "Show Author Bio"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:415
+msgid "Display the author bio at the bottom of post on single post page ?"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:433
+msgid "Show Related Post On Single Post Page"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:434
+msgid "Display related post the bottom of posts?"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:441
+#: includes/admin/demo-theme-options.php:589
+msgid "Show Sharing Button"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:443
+msgid "Activate this to enable social sharing buttons on single post page."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:450
+#: includes/admin/demo-theme-options.php:598 includes/data-functions.php:1324
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:456
+#: includes/admin/demo-theme-options.php:604 includes/data-functions.php:1334
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:462
+#: includes/admin/demo-theme-options.php:622 includes/data-functions.php:1354
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:468 includes/data-functions.php:1364
+msgid "Share on Tumblr"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:474
+#: includes/admin/demo-theme-options.php:610
+msgid "Share on Google+"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:480
+#: includes/admin/demo-theme-options.php:616
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:486
+msgid "Share on Email"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:494
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:495
+msgid "<p class=\"description\">Customize Woocommerce.</p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:502
+msgid "Cart In header"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:503
+msgid "This will show cat in header."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:510
+msgid "Mobile Cart Icon"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:512
+msgid ""
+"This will show on mobile menu a shop icon with the number of cart items."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:518
+msgid "List Product Settings"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:522
+msgid "Shop Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:523
+msgid "Select shop layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:538
+msgid "Product Category Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:539
+msgid "Select product category layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:554
+msgid "Default View Mode"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:555
+msgid "Select default view mode"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:564
+msgid "Number of Products per Page"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:565
+msgid "Enter the products of posts to display per page."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:569
+msgid "Single Product Settings"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:573
+msgid "Single Product Layout"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:574
+msgid "Select single product layout."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:590
+msgid "Activate this to enable social sharing buttons."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:629
+msgid "Social Profile"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:631
+msgid ""
+"<p class=\"description\">Enter in your profile media locations here."
+"<br><strong>Remember to include the \"http://\" in all URLs!</strong></p>"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:634
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:635
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:639
+msgid "Google+ URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:640
+msgid "Youtube URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:641
+msgid "Vimeo URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:645
+msgid "Pinterest URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:646
+msgid "LinkedIn URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:647
+msgid "RSS URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:651
+msgid "Instagram URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:652
+msgid "GitHub URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:653
+msgid "Behance URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:657
+msgid "Stack Exchange URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:658
+msgid "Tumblr URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:662
+msgid "SoundCloud URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:663
+msgid "Dribbble URL"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:667
+msgid "Target"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:668
+msgid "The target attribute specifies where to open the linked social."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:670
+msgid "Blank"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:671
+msgid "Layout 2"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:678
+msgid "Import and Export"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:684
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:690
+msgid ""
+"Here you can download your current option settings.You can use it to restore "
+"your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:694
+msgid "Custom Code"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:699
+msgid "Custom Style"
+msgstr ""
+
+#: includes/admin/demo-theme-options.php:700
+msgid "Place you custom style here"
+msgstr ""
+
+#: includes/admin/functions.php:127
+msgid "Select a sidebar..."
+msgstr ""
+
+#: includes/admin/functions.php:154
+msgid "Select an option"
+msgstr ""
+
+#: includes/admin/functions.php:186
+msgid "Select some options"
+msgstr ""
+
+#: includes/admin/functions.php:265
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: includes/admin/functions.php:267
+msgid "Add to Gallery"
+msgstr ""
+
+#: includes/admin/functions.php:285 includes/admin/functions.php:360
+#: templates/fields/img_size.php:48
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/functions.php:285 includes/admin/functions.php:360
+msgid "x"
+msgstr ""
+
+#: includes/admin/functions.php:370
+msgid "Add Gallery Images"
+msgstr ""
+
+#: includes/admin/functions.php:384 includes/admin/functions.php:424
+msgid "Change Media"
+msgstr ""
+
+#: includes/admin/functions.php:384 includes/admin/functions.php:435
+msgid "Select Media"
+msgstr ""
+
+#: includes/admin/functions.php:389
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/functions.php:411
+msgid "Select or Upload your Media"
+msgstr ""
+
+#: includes/admin/functions.php:413 includes/admin/functions.php:507
+#: templates/fields/background.php:134 templates/fields/image.php:43
+#: templates/fields/upload_font.php:77
+msgid "Select"
+msgstr ""
+
+#: includes/admin/functions.php:478 includes/admin/functions.php:532
+#: templates/fields/background.php:103 templates/fields/background.php:148
+#: templates/fields/image.php:9 templates/fields/image.php:56
+msgid "Change Image"
+msgstr ""
+
+#: includes/admin/functions.php:478 includes/admin/functions.php:543
+#: templates/fields/background.php:104 templates/fields/background.php:159
+#: templates/fields/image.php:10 templates/fields/image.php:67
+msgid "Select Image"
+msgstr ""
+
+#: includes/admin/functions.php:484 templates/fields/background.php:114
+#: templates/fields/image.php:20
+msgid "Clear Image"
+msgstr ""
+
+#: includes/admin/functions.php:505 templates/fields/background.php:132
+#: templates/fields/image.php:41
+msgid "Select or Upload your Image"
+msgstr ""
+
+#: includes/admin/functions.php:608
+msgid "Remove server"
+msgstr ""
+
+#: includes/admin/functions.php:611
+msgid "Server Name"
+msgstr ""
+
+#: includes/admin/functions.php:612
+msgid "Add links"
+msgstr ""
+
+#: includes/admin/functions.php:624
+msgid "YouTube"
+msgstr ""
+
+#: includes/admin/functions.php:625
+msgid "HTML5 (self-hosted)"
+msgstr ""
+
+#: includes/admin/functions.php:626
+msgid "Vimeo"
+msgstr ""
+
+#: includes/admin/functions.php:628
+msgid "YouTube ID, Vimeo ID or MP4 Video URL"
+msgstr ""
+
+#: includes/admin/functions.php:645
+msgid "Add Server"
+msgstr ""
+
+#: includes/admin/functions.php:753
+msgid "Theme Updated!"
+msgstr ""
+
+#: includes/admin/import-demo.php:15
+msgid "Import Demo"
+msgstr ""
+
+#: includes/admin/import-demo.php:29
+msgid "Choose the demo for import"
+msgstr ""
+
+#: includes/admin/import-demo.php:30
+msgid ""
+"The images used in live demos will be replaced by placeholders due to "
+"copyright/license reasons."
+msgstr ""
+
+#: includes/admin/import-demo.php:39
+msgid "Click to choose"
+msgstr ""
+
+#: includes/admin/import-demo.php:41
+msgid "View this demo in a new tab"
+msgstr ""
+
+#: includes/admin/import-demo.php:41
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/import-demo.php:49
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:194
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:215
+#: templates/fields/import.php:11
+msgid "Import"
+msgstr ""
+
+#: includes/admin/import-demo.php:55
+msgid "Importing Demo Content..."
+msgstr ""
+
+#: includes/admin/import-demo.php:56
+msgid "Don't close or refresh this page to not interrupt the import."
+msgstr ""
+
+#: includes/admin/import-demo.php:60
+msgid "Import completed successfully!"
+msgstr ""
+
+#: includes/admin/import-demo.php:61
+#, php-format
+msgid ""
+"Just check the result on <a href=\"%s\" target=\"_blank\">your site</a> or "
+"start customize via <a href=\"%s\">Theme Options</a>."
+msgstr ""
+
+#: includes/admin/import-demo.php:109 includes/admin/import-demo.php:350
+msgid "Error has occured"
+msgstr ""
+
+#: includes/admin/import-demo.php:264
+msgid "An error has occurred. Please reload the page and try again."
+msgstr ""
+
+#: includes/admin/theme-options-api.php:75
+#: includes/admin/theme-options-api.php:81
+msgid "This is required to enable file writing"
+msgstr ""
+
+#: includes/admin/theme-options-api.php:181
+msgid "Support Forum"
+msgstr ""
+
+#: includes/admin/theme-options-api.php:182
+msgid "Document"
+msgstr ""
+
+#: includes/admin/theme-options-api.php:184
+#: includes/admin/theme-options-api.php:251
+msgid "Save All Change"
+msgstr ""
+
+#: includes/admin/theme-options-api.php:249
+msgid "Reset Options"
+msgstr ""
+
+#: includes/admin/theme-options-api.php:398
+#: includes/admin/theme-options-api.php:399
+#: includes/admin/theme-options-api.php:414
+msgid "Theme Options"
+msgstr ""
+
+#: includes/controller.php:36
+msgid "Authenication required."
+msgstr ""
+
+#: includes/controller.php:44
+msgid "Please connect your facebook account."
+msgstr ""
+
+#: includes/controller.php:57
+msgid "Registration is not open at this time. Please come back later."
+msgstr ""
+
+#: includes/controller.php:60
+msgid ""
+"Registration using Facebook is not currently allowed. Please use our "
+"Register page"
+msgstr ""
+
+#: includes/controller.php:74
+msgid ""
+"Your facebook account is not verified. You have to verify your account "
+"before proceed login or registering on this site."
+msgstr ""
+
+#: includes/controller.php:79
+msgid ""
+"Please click again to login with Facebook and allow the application to use "
+"your email address"
+msgstr ""
+
+#: includes/controller.php:83
+msgid ""
+"We didn't find your name. Please complete your facebook account before "
+"proceeding."
+msgstr ""
+
+#: includes/controller.php:121 includes/controller.php:139
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: includes/controller.php:147
+msgid "Your session is expired or you submitted an invalid form."
+msgstr ""
+
+#: includes/controller.php:167
+msgid "Registration complete."
+msgstr ""
+
+#: includes/controller.php:174
+msgid "Not allow register in site."
+msgstr ""
+
+#: includes/controller.php:186
+msgid "Please enter a username."
+msgstr ""
+
+#: includes/controller.php:188
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: includes/controller.php:191
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: includes/controller.php:196
+msgid "Please type your email address."
+msgstr ""
+
+#: includes/controller.php:198
+msgid "The email address isn't correct."
+msgstr ""
+
+#: includes/controller.php:201
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: includes/controller.php:209
+msgid "Password must be 6 character long."
+msgstr ""
+
+#: includes/controller.php:211
+msgid "Not see password confirmation field."
+msgstr ""
+
+#: includes/controller.php:213
+msgid "Passwords do not match."
+msgstr ""
+
+#: includes/controller.php:232
+msgid "Couldn't register you... please contact the site administrator"
+msgstr ""
+
+#: includes/controller.php:260
+#, php-format
+msgid "Welcome to [%1$s]"
+msgstr ""
+
+#: includes/controller.php:263
+#, php-format
+msgid ""
+"Hi %1$s,<br/><br/>\n"
+"You've just successfully registered an account on %2$s.<br/>\n"
+"Start reading now! %3$s\n"
+"<br/><br/>\n"
+"Best regards,<br/>\n"
+"%4$s"
+msgstr ""
+
+#: includes/controller.php:278 includes/controller.php:284
+#, php-format
+msgid ""
+"You are already logged in. Please <a href=\"#\" onclick=\"%s\">refresh</a> "
+"page"
+msgstr ""
+
+#: includes/controller.php:297
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: includes/controller.php:301
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: includes/controller.php:320
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: includes/controller.php:359
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: includes/controller.php:388
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: includes/controller.php:390
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/controller.php:391
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: includes/controller.php:392
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/controller.php:404
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: includes/controller.php:426
+msgid "Failure!"
+msgstr ""
+
+#: includes/controller.php:427
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: includes/controller.php:431
+msgid "Email successfully sent!"
+msgstr ""
+
+#: includes/controller.php:458 includes/controller.php:460
+msgid "Verify Nonce Failed"
+msgstr ""
+
+#: includes/controller.php:464
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: includes/controller.php:466
+msgid "Invalid Email"
+msgstr ""
+
+#: includes/controller.php:514
+msgid "<strong>Well done!</strong> Subscribe to our Newsletter successful!"
+msgstr ""
+
+#: includes/controller.php:516
+msgid "Can not subscribe our Newsletter"
+msgstr ""
+
+#: includes/controller.php:577 includes/controller.php:591
+msgid "No results matched!"
+msgstr ""
+
+#: includes/controller.php:615
+msgid "View all results"
+msgstr ""
+
+#: includes/data-functions.php:114
+#: includes/vc-extend/visual-composer-api.php:178
+#: includes/vc-extend/visual-composer-api.php:192
+msgid "None"
+msgstr ""
+
+#: includes/data-functions.php:1117
+msgid "Facebook"
+msgstr ""
+
+#: includes/data-functions.php:1125
+msgid "Twitter"
+msgstr ""
+
+#: includes/data-functions.php:1133
+msgid "Google +"
+msgstr ""
+
+#: includes/data-functions.php:1140
+msgid "pinterest"
+msgstr ""
+
+#: includes/data-functions.php:1148
+msgid "Linked In"
+msgstr ""
+
+#: includes/data-functions.php:1344
+msgid "Share on Google Plus"
+msgstr ""
+
+#: includes/data-functions.php:1374
+msgid "Pin this"
+msgstr ""
+
+#: includes/data-functions.php:1385
+msgid "Email this"
+msgstr ""
+
+#: includes/data-functions.php:1398
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/data-functions.php:1399
+msgid "Albania"
+msgstr ""
+
+#: includes/data-functions.php:1400
+msgid "Algeria"
+msgstr ""
+
+#: includes/data-functions.php:1401
+msgid "Andorra"
+msgstr ""
+
+#: includes/data-functions.php:1402
+msgid "Angola"
+msgstr ""
+
+#: includes/data-functions.php:1403
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/data-functions.php:1404
+msgid "Argentina"
+msgstr ""
+
+#: includes/data-functions.php:1405
+msgid "Armenia"
+msgstr ""
+
+#: includes/data-functions.php:1406
+msgid "Aruba"
+msgstr ""
+
+#: includes/data-functions.php:1407
+msgid "Australia"
+msgstr ""
+
+#: includes/data-functions.php:1408
+msgid "Austria"
+msgstr ""
+
+#: includes/data-functions.php:1409
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/data-functions.php:1410
+msgid "Bahamas, The"
+msgstr ""
+
+#: includes/data-functions.php:1411
+msgid "Bahrain"
+msgstr ""
+
+#: includes/data-functions.php:1412
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/data-functions.php:1413
+msgid "Barbados"
+msgstr ""
+
+#: includes/data-functions.php:1414
+msgid "Belarus"
+msgstr ""
+
+#: includes/data-functions.php:1415
+msgid "Belgium"
+msgstr ""
+
+#: includes/data-functions.php:1416
+msgid "Belize"
+msgstr ""
+
+#: includes/data-functions.php:1417
+msgid "Benin"
+msgstr ""
+
+#: includes/data-functions.php:1418
+msgid "Bhutan"
+msgstr ""
+
+#: includes/data-functions.php:1419
+msgid "Bolivia"
+msgstr ""
+
+#: includes/data-functions.php:1420
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/data-functions.php:1421
+msgid "Botswana"
+msgstr ""
+
+#: includes/data-functions.php:1422
+msgid "Brazil"
+msgstr ""
+
+#: includes/data-functions.php:1423
+msgid "Brunei"
+msgstr ""
+
+#: includes/data-functions.php:1424
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/data-functions.php:1425
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/data-functions.php:1426
+msgid "Burma"
+msgstr ""
+
+#: includes/data-functions.php:1427
+msgid "Burundi"
+msgstr ""
+
+#: includes/data-functions.php:1428
+msgid "Cambodia"
+msgstr ""
+
+#: includes/data-functions.php:1429
+msgid "Cameroon"
+msgstr ""
+
+#: includes/data-functions.php:1430
+msgid "Canada"
+msgstr ""
+
+#: includes/data-functions.php:1431
+msgid "Cabo Verde"
+msgstr ""
+
+#: includes/data-functions.php:1432
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/data-functions.php:1433
+msgid "Chad"
+msgstr ""
+
+#: includes/data-functions.php:1434
+msgid "Chile"
+msgstr ""
+
+#: includes/data-functions.php:1435
+msgid "China"
+msgstr ""
+
+#: includes/data-functions.php:1436
+msgid "Colombia"
+msgstr ""
+
+#: includes/data-functions.php:1437
+msgid "Comoros"
+msgstr ""
+
+#: includes/data-functions.php:1438 includes/data-functions.php:1439
+msgid "Congo, Democratic Republic of the"
+msgstr ""
+
+#: includes/data-functions.php:1441
+msgid "Congo, Republic of the"
+msgstr ""
+
+#: includes/data-functions.php:1442
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/data-functions.php:1443
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: includes/data-functions.php:1444
+msgid "Croatia"
+msgstr ""
+
+#: includes/data-functions.php:1445
+msgid "Cuba"
+msgstr ""
+
+#: includes/data-functions.php:1446
+msgid "Curacao"
+msgstr ""
+
+#: includes/data-functions.php:1447
+msgid "Cyprus"
+msgstr ""
+
+#: includes/data-functions.php:1448
+msgid "Czechia"
+msgstr ""
+
+#: includes/data-functions.php:1449
+msgid "Denmark"
+msgstr ""
+
+#: includes/data-functions.php:1450
+msgid "Djibouti"
+msgstr ""
+
+#: includes/data-functions.php:1451
+msgid "Dominica"
+msgstr ""
+
+#: includes/data-functions.php:1452
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/data-functions.php:1453 includes/data-functions.php:1454
+msgid "East Timor (see Timor-Leste)"
+msgstr ""
+
+#: includes/data-functions.php:1456
+msgid "Ecuador"
+msgstr ""
+
+#: includes/data-functions.php:1457
+msgid "Egypt"
+msgstr ""
+
+#: includes/data-functions.php:1458
+msgid "El Salvador"
+msgstr ""
+
+#: includes/data-functions.php:1459
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/data-functions.php:1460
+msgid "Eritrea"
+msgstr ""
+
+#: includes/data-functions.php:1461
+msgid "Estonia"
+msgstr ""
+
+#: includes/data-functions.php:1462
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/data-functions.php:1463
+msgid "Fiji"
+msgstr ""
+
+#: includes/data-functions.php:1464
+msgid "Finland"
+msgstr ""
+
+#: includes/data-functions.php:1465
+msgid "France"
+msgstr ""
+
+#: includes/data-functions.php:1466
+msgid "Gabon"
+msgstr ""
+
+#: includes/data-functions.php:1467
+msgid "Gambia, The"
+msgstr ""
+
+#: includes/data-functions.php:1468
+msgid "Georgia"
+msgstr ""
+
+#: includes/data-functions.php:1469
+msgid "Germany"
+msgstr ""
+
+#: includes/data-functions.php:1470
+msgid "Ghana"
+msgstr ""
+
+#: includes/data-functions.php:1471
+msgid "Greece"
+msgstr ""
+
+#: includes/data-functions.php:1472
+msgid "Grenada"
+msgstr ""
+
+#: includes/data-functions.php:1473
+msgid "Guatemala"
+msgstr ""
+
+#: includes/data-functions.php:1474
+msgid "Guinea"
+msgstr ""
+
+#: includes/data-functions.php:1475
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/data-functions.php:1476
+msgid "Guyana"
+msgstr ""
+
+#: includes/data-functions.php:1477
+msgid "Haiti"
+msgstr ""
+
+#: includes/data-functions.php:1478
+msgid "Holy See"
+msgstr ""
+
+#: includes/data-functions.php:1479
+msgid "Honduras"
+msgstr ""
+
+#: includes/data-functions.php:1480
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/data-functions.php:1481
+msgid "Hungary"
+msgstr ""
+
+#: includes/data-functions.php:1482
+msgid "Iceland"
+msgstr ""
+
+#: includes/data-functions.php:1483
+msgid "India"
+msgstr ""
+
+#: includes/data-functions.php:1484
+msgid "Indonesia"
+msgstr ""
+
+#: includes/data-functions.php:1485
+msgid "Iran"
+msgstr ""
+
+#: includes/data-functions.php:1486
+msgid "Iraq"
+msgstr ""
+
+#: includes/data-functions.php:1487
+msgid "Ireland"
+msgstr ""
+
+#: includes/data-functions.php:1488
+msgid "Israel"
+msgstr ""
+
+#: includes/data-functions.php:1489
+msgid "Italy"
+msgstr ""
+
+#: includes/data-functions.php:1490
+msgid "Jamaica"
+msgstr ""
+
+#: includes/data-functions.php:1491
+msgid "Japan"
+msgstr ""
+
+#: includes/data-functions.php:1492
+msgid "Jordan"
+msgstr ""
+
+#: includes/data-functions.php:1493
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/data-functions.php:1494
+msgid "Kenya"
+msgstr ""
+
+#: includes/data-functions.php:1495
+msgid "Kiribati"
+msgstr ""
+
+#: includes/data-functions.php:1496
+msgid "Korea, North"
+msgstr ""
+
+#: includes/data-functions.php:1497
+msgid "Korea, South"
+msgstr ""
+
+#: includes/data-functions.php:1498
+msgid "Kosovo"
+msgstr ""
+
+#: includes/data-functions.php:1499
+msgid "Kuwait"
+msgstr ""
+
+#: includes/data-functions.php:1500
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/data-functions.php:1501
+msgid "Laos"
+msgstr ""
+
+#: includes/data-functions.php:1502
+msgid "Latvia"
+msgstr ""
+
+#: includes/data-functions.php:1503
+msgid "Lebanon"
+msgstr ""
+
+#: includes/data-functions.php:1504
+msgid "Lesotho"
+msgstr ""
+
+#: includes/data-functions.php:1505
+msgid "Liberia"
+msgstr ""
+
+#: includes/data-functions.php:1506
+msgid "Libya"
+msgstr ""
+
+#: includes/data-functions.php:1507
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/data-functions.php:1508
+msgid "Lithuania"
+msgstr ""
+
+#: includes/data-functions.php:1509
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/data-functions.php:1510
+msgid "Macau"
+msgstr ""
+
+#: includes/data-functions.php:1511
+msgid "Macedonia"
+msgstr ""
+
+#: includes/data-functions.php:1512
+msgid "Madagascar"
+msgstr ""
+
+#: includes/data-functions.php:1513
+msgid "Malawi"
+msgstr ""
+
+#: includes/data-functions.php:1514
+msgid "Malaysia"
+msgstr ""
+
+#: includes/data-functions.php:1515
+msgid "Maldives"
+msgstr ""
+
+#: includes/data-functions.php:1516
+msgid "Mali"
+msgstr ""
+
+#: includes/data-functions.php:1517
+msgid "Malta"
+msgstr ""
+
+#: includes/data-functions.php:1518
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/data-functions.php:1519
+msgid "Mauritania"
+msgstr ""
+
+#: includes/data-functions.php:1520
+msgid "Mauritius"
+msgstr ""
+
+#: includes/data-functions.php:1521
+msgid "Mexico"
+msgstr ""
+
+#: includes/data-functions.php:1522
+msgid "Micronesia"
+msgstr ""
+
+#: includes/data-functions.php:1523
+msgid "Moldova"
+msgstr ""
+
+#: includes/data-functions.php:1524
+msgid "Monaco"
+msgstr ""
+
+#: includes/data-functions.php:1525
+msgid "Mongolia"
+msgstr ""
+
+#: includes/data-functions.php:1526
+msgid "Montenegro"
+msgstr ""
+
+#: includes/data-functions.php:1527
+msgid "Morocco"
+msgstr ""
+
+#: includes/data-functions.php:1528
+msgid "Mozambique"
+msgstr ""
+
+#: includes/data-functions.php:1529
+msgid "Namibia"
+msgstr ""
+
+#: includes/data-functions.php:1530
+msgid "Nauru"
+msgstr ""
+
+#: includes/data-functions.php:1531
+msgid "Nepal"
+msgstr ""
+
+#: includes/data-functions.php:1532
+msgid "Netherlands"
+msgstr ""
+
+#: includes/data-functions.php:1533
+msgid "New Zealand"
+msgstr ""
+
+#: includes/data-functions.php:1534
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/data-functions.php:1535
+msgid "Niger"
+msgstr ""
+
+#: includes/data-functions.php:1536
+msgid "Nigeria"
+msgstr ""
+
+#: includes/data-functions.php:1537
+msgid "North Korea"
+msgstr ""
+
+#: includes/data-functions.php:1538
+msgid "Norway"
+msgstr ""
+
+#: includes/data-functions.php:1539
+msgid "Oman"
+msgstr ""
+
+#: includes/data-functions.php:1540
+msgid "Pakistan"
+msgstr ""
+
+#: includes/data-functions.php:1541
+msgid "Palau"
+msgstr ""
+
+#: includes/data-functions.php:1542
+msgid "Palestinian Territories"
+msgstr ""
+
+#: includes/data-functions.php:1543
+msgid "Panama"
+msgstr ""
+
+#: includes/data-functions.php:1544
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/data-functions.php:1545
+msgid "Paraguay"
+msgstr ""
+
+#: includes/data-functions.php:1546
+msgid "Peru"
+msgstr ""
+
+#: includes/data-functions.php:1547
+msgid "Philippines"
+msgstr ""
+
+#: includes/data-functions.php:1548
+msgid "Poland"
+msgstr ""
+
+#: includes/data-functions.php:1549
+msgid "Portugal"
+msgstr ""
+
+#: includes/data-functions.php:1550
+msgid "Qatar"
+msgstr ""
+
+#: includes/data-functions.php:1551
+msgid "Romania"
+msgstr ""
+
+#: includes/data-functions.php:1552
+msgid "Russia"
+msgstr ""
+
+#: includes/data-functions.php:1553
+msgid "Rwanda"
+msgstr ""
+
+#: includes/data-functions.php:1554
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/data-functions.php:1555
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/data-functions.php:1556 includes/data-functions.php:1557
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/data-functions.php:1559
+msgid "Samoa"
+msgstr ""
+
+#: includes/data-functions.php:1560
+msgid "San Marino"
+msgstr ""
+
+#: includes/data-functions.php:1561
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/data-functions.php:1562
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/data-functions.php:1563
+msgid "Senegal"
+msgstr ""
+
+#: includes/data-functions.php:1564
+msgid "Serbia"
+msgstr ""
+
+#: includes/data-functions.php:1565
+msgid "Seychelles"
+msgstr ""
+
+#: includes/data-functions.php:1566
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/data-functions.php:1567
+msgid "Singapore"
+msgstr ""
+
+#: includes/data-functions.php:1568
+msgid "Sint Maarten"
+msgstr ""
+
+#: includes/data-functions.php:1569
+msgid "Slovakia"
+msgstr ""
+
+#: includes/data-functions.php:1570
+msgid "Slovenia"
+msgstr ""
+
+#: includes/data-functions.php:1571
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/data-functions.php:1572
+msgid "Somalia"
+msgstr ""
+
+#: includes/data-functions.php:1573
+msgid "South Africa"
+msgstr ""
+
+#: includes/data-functions.php:1574
+msgid "South Korea"
+msgstr ""
+
+#: includes/data-functions.php:1575
+msgid "South Sudan"
+msgstr ""
+
+#: includes/data-functions.php:1576
+msgid "Spain"
+msgstr ""
+
+#: includes/data-functions.php:1577
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/data-functions.php:1578
+msgid "Sudan"
+msgstr ""
+
+#: includes/data-functions.php:1579
+msgid "Suriname"
+msgstr ""
+
+#: includes/data-functions.php:1580
+msgid "Swaziland"
+msgstr ""
+
+#: includes/data-functions.php:1581
+msgid "Sweden"
+msgstr ""
+
+#: includes/data-functions.php:1582
+msgid "Switzerland"
+msgstr ""
+
+#: includes/data-functions.php:1583
+msgid "Syria"
+msgstr ""
+
+#: includes/data-functions.php:1584
+msgid "Taiwan"
+msgstr ""
+
+#: includes/data-functions.php:1585
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/data-functions.php:1586
+msgid "Tanzania"
+msgstr ""
+
+#: includes/data-functions.php:1587
+msgid "Thailand"
+msgstr ""
+
+#: includes/data-functions.php:1588
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/data-functions.php:1589
+msgid "Togo"
+msgstr ""
+
+#: includes/data-functions.php:1590
+msgid "Tonga"
+msgstr ""
+
+#: includes/data-functions.php:1591
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/data-functions.php:1592
+msgid "Tunisia"
+msgstr ""
+
+#: includes/data-functions.php:1593
+msgid "Turkey"
+msgstr ""
+
+#: includes/data-functions.php:1594
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/data-functions.php:1595
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/data-functions.php:1596
+msgid "Uganda"
+msgstr ""
+
+#: includes/data-functions.php:1597
+msgid "Ukraine"
+msgstr ""
+
+#: includes/data-functions.php:1598
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/data-functions.php:1599
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/data-functions.php:1600
+msgid "Uruguay"
+msgstr ""
+
+#: includes/data-functions.php:1601
+msgid "USA"
+msgstr ""
+
+#: includes/data-functions.php:1602
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/data-functions.php:1603
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/data-functions.php:1604
+msgid "Venezuela"
+msgstr ""
+
+#: includes/data-functions.php:1605
+msgid "Vietnam"
+msgstr ""
+
+#: includes/data-functions.php:1606
+msgid "Yemen"
+msgstr ""
+
+#: includes/data-functions.php:1607
+msgid "Zambia"
+msgstr ""
+
+#: includes/data-functions.php:1608
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/data-functions.php:1614
+msgid "English"
+msgstr ""
+
+#: includes/data-functions.php:1615
+msgid "Abkhaz"
+msgstr ""
+
+#: includes/data-functions.php:1616
+msgid "Adyghe"
+msgstr ""
+
+#: includes/data-functions.php:1617
+msgid "Afrikaans"
+msgstr ""
+
+#: includes/data-functions.php:1618
+msgid "Akan"
+msgstr ""
+
+#: includes/data-functions.php:1619
+msgid "Albanian"
+msgstr ""
+
+#: includes/data-functions.php:1620
+msgid "American Sign Language"
+msgstr ""
+
+#: includes/data-functions.php:1621
+msgid "Amharic"
+msgstr ""
+
+#: includes/data-functions.php:1622
+msgid "Arabic"
+msgstr ""
+
+#: includes/data-functions.php:1623
+msgid "Aragonese"
+msgstr ""
+
+#: includes/data-functions.php:1624
+msgid "Aramaic"
+msgstr ""
+
+#: includes/data-functions.php:1625
+msgid "Armenian"
+msgstr ""
+
+#: includes/data-functions.php:1626
+msgid "Aymara"
+msgstr ""
+
+#: includes/data-functions.php:1627
+msgid "Balinese"
+msgstr ""
+
+#: includes/data-functions.php:1628
+msgid "Basque"
+msgstr ""
+
+#: includes/data-functions.php:1629
+msgid "Betawi"
+msgstr ""
+
+#: includes/data-functions.php:1630
+msgid "Bosnian"
+msgstr ""
+
+#: includes/data-functions.php:1631
+msgid "Breton"
+msgstr ""
+
+#: includes/data-functions.php:1632
+msgid "Bulgarian"
+msgstr ""
+
+#: includes/data-functions.php:1633
+msgid "Cantonese"
+msgstr ""
+
+#: includes/data-functions.php:1634
+msgid "Catalan"
+msgstr ""
+
+#: includes/data-functions.php:1635
+msgid "Cherokee"
+msgstr ""
+
+#: includes/data-functions.php:1636
+msgid "Chickasaw"
+msgstr ""
+
+#: includes/data-functions.php:1637
+msgid "Chinese"
+msgstr ""
+
+#: includes/data-functions.php:1638
+msgid "Coptic"
+msgstr ""
+
+#: includes/data-functions.php:1639
+msgid "Cornish"
+msgstr ""
+
+#: includes/data-functions.php:1640
+msgid "Corsican"
+msgstr ""
+
+#: includes/data-functions.php:1641
+msgid "Crimean Tatar"
+msgstr ""
+
+#: includes/data-functions.php:1642
+msgid "Croatian"
+msgstr ""
+
+#: includes/data-functions.php:1643
+msgid "Czech"
+msgstr ""
+
+#: includes/data-functions.php:1644
+msgid "Danish"
+msgstr ""
+
+#: includes/data-functions.php:1645
+msgid "Dutch"
+msgstr ""
+
+#: includes/data-functions.php:1646
+msgid "Dawro"
+msgstr ""
+
+#: includes/data-functions.php:1647
+msgid "Esperanto"
+msgstr ""
+
+#: includes/data-functions.php:1648
+msgid "Estonian"
+msgstr ""
+
+#: includes/data-functions.php:1649
+msgid "Ewe"
+msgstr ""
+
+#: includes/data-functions.php:1650
+msgid "Fiji Hindi"
+msgstr ""
+
+#: includes/data-functions.php:1651
+msgid "Filipino"
+msgstr ""
+
+#: includes/data-functions.php:1652
+msgid "Finnish"
+msgstr ""
+
+#: includes/data-functions.php:1653
+msgid "French"
+msgstr ""
+
+#: includes/data-functions.php:1654
+msgid "Galician"
+msgstr ""
+
+#: includes/data-functions.php:1655
+msgid "Georgian"
+msgstr ""
+
+#: includes/data-functions.php:1656
+msgid "German"
+msgstr ""
+
+#: includes/data-functions.php:1657
+msgid "Greek, Modern"
+msgstr ""
+
+#: includes/data-functions.php:1658
+msgid "Ancient Greek"
+msgstr ""
+
+#: includes/data-functions.php:1659
+msgid "Greenlandic"
+msgstr ""
+
+#: includes/data-functions.php:1660
+msgid "Haitian Creole"
+msgstr ""
+
+#: includes/data-functions.php:1661
+msgid "Hawaiian"
+msgstr ""
+
+#: includes/data-functions.php:1662
+msgid "Hebrew"
+msgstr ""
+
+#: includes/data-functions.php:1663
+msgid "Hindi"
+msgstr ""
+
+#: includes/data-functions.php:1664
+msgid "Hungarian"
+msgstr ""
+
+#: includes/data-functions.php:1665
+msgid "Icelandic"
+msgstr ""
+
+#: includes/data-functions.php:1666
+msgid "Indonesian"
+msgstr ""
+
+#: includes/data-functions.php:1667
+msgid "Inuktitut"
+msgstr ""
+
+#: includes/data-functions.php:1668
+msgid "Interlingua"
+msgstr ""
+
+#: includes/data-functions.php:1669
+msgid "Irish"
+msgstr ""
+
+#: includes/data-functions.php:1670
+msgid "Italian"
+msgstr ""
+
+#: includes/data-functions.php:1671
+msgid "Japanese"
+msgstr ""
+
+#: includes/data-functions.php:1672
+msgid "Javanese"
+msgstr ""
+
+#: includes/data-functions.php:1673
+msgid "Kabardian"
+msgstr ""
+
+#: includes/data-functions.php:1674
+msgid "Kalasha"
+msgstr ""
+
+#: includes/data-functions.php:1675
+msgid "Kannada"
+msgstr ""
+
+#: includes/data-functions.php:1676
+msgid "Kashubian"
+msgstr ""
+
+#: includes/data-functions.php:1677
+msgid "Khmer"
+msgstr ""
+
+#: includes/data-functions.php:1678
+msgid "Kinyarwanda"
+msgstr ""
+
+#: includes/data-functions.php:1679
+msgid "Korean"
+msgstr ""
+
+#: includes/data-functions.php:1680
+msgid "Kurdish/Kurdî"
+msgstr ""
+
+#: includes/data-functions.php:1681
+msgid "Ladin"
+msgstr ""
+
+#: includes/data-functions.php:1682
+msgid "Latgalian"
+msgstr ""
+
+#: includes/data-functions.php:1682
+msgid "Latg"
+msgstr ""
+
+#: includes/data-functions.php:1683
+msgid "Lalian"
+msgstr ""
+
+#: includes/data-functions.php:1684
+msgid "Latin"
+msgstr ""
+
+#: includes/data-functions.php:1685
+msgid "Lingala"
+msgstr ""
+
+#: includes/data-functions.php:1686
+msgid "Livonian"
+msgstr ""
+
+#: includes/data-functions.php:1687
+msgid "Lojban"
+msgstr ""
+
+#: includes/data-functions.php:1688
+msgid "Lower Sorbian"
+msgstr ""
+
+#: includes/data-functions.php:1689
+msgid "Low German"
+msgstr ""
+
+#: includes/data-functions.php:1690
+msgid "Macedonian"
+msgstr ""
+
+#: includes/data-functions.php:1691
+msgid "Malay"
+msgstr ""
+
+#: includes/data-functions.php:1692
+msgid "Malayalam"
+msgstr ""
+
+#: includes/data-functions.php:1693
+msgid "Mandarin"
+msgstr ""
+
+#: includes/data-functions.php:1694
+msgid "Manx"
+msgstr ""
+
+#: includes/data-functions.php:1695
+msgid "Maori"
+msgstr ""
+
+#: includes/data-functions.php:1696
+msgid "Mauritian Creole"
+msgstr ""
+
+#: includes/data-functions.php:1697
+msgid "Middle Low German"
+msgstr ""
+
+#: includes/data-functions.php:1698
+msgid "Min Nan"
+msgstr ""
+
+#: includes/data-functions.php:1699
+msgid "Mongolian"
+msgstr ""
+
+#: includes/data-functions.php:1700
+msgid "Norwegian"
+msgstr ""
+
+#: includes/data-functions.php:1701
+msgid "Old Armenian"
+msgstr ""
+
+#: includes/data-functions.php:1702
+msgid "Old English"
+msgstr ""
+
+#: includes/data-functions.php:1703
+msgid "Old French"
+msgstr ""
+
+#: includes/data-functions.php:1704
+msgid "Old Javanese"
+msgstr ""
+
+#: includes/data-functions.php:1705
+msgid "Old Norse"
+msgstr ""
+
+#: includes/data-functions.php:1706
+msgid "Old Prussian"
+msgstr ""
+
+#: includes/data-functions.php:1707
+msgid "Oriya"
+msgstr ""
+
+#: includes/data-functions.php:1708
+msgid "Pangasinan"
+msgstr ""
+
+#: includes/data-functions.php:1709
+msgid "Papiamentu"
+msgstr ""
+
+#: includes/data-functions.php:1710
+msgid "Pashto"
+msgstr ""
+
+#: includes/data-functions.php:1711
+msgid "Persian"
+msgstr ""
+
+#: includes/data-functions.php:1712
+msgid "Pitjantjatjara"
+msgstr ""
+
+#: includes/data-functions.php:1713
+msgid "Polish"
+msgstr ""
+
+#: includes/data-functions.php:1714
+msgid "Portuguese"
+msgstr ""
+
+#: includes/data-functions.php:1715
+msgid "Proto-Slavic"
+msgstr ""
+
+#: includes/data-functions.php:1716
+msgid "Quenya"
+msgstr ""
+
+#: includes/data-functions.php:1717
+msgid "Rapa Nui"
+msgstr ""
+
+#: includes/data-functions.php:1718
+msgid "Romanian"
+msgstr ""
+
+#: includes/data-functions.php:1719
+msgid "Russian"
+msgstr ""
+
+#: includes/data-functions.php:1720
+msgid "Sanskrit"
+msgstr ""
+
+#: includes/data-functions.php:1721
+msgid "Scots"
+msgstr ""
+
+#: includes/data-functions.php:1722
+msgid "Scottish Gaelic"
+msgstr ""
+
+#: includes/data-functions.php:1723
+msgid "Serbian"
+msgstr ""
+
+#: includes/data-functions.php:1724
+msgid "Serbo-Croatian"
+msgstr ""
+
+#: includes/data-functions.php:1725
+msgid "Slovak"
+msgstr ""
+
+#: includes/data-functions.php:1726
+msgid "Slovene"
+msgstr ""
+
+#: includes/data-functions.php:1727
+msgid "Spanish"
+msgstr ""
+
+#: includes/data-functions.php:1728
+msgid "Sinhalese"
+msgstr ""
+
+#: includes/data-functions.php:1729
+msgid "Swahili"
+msgstr ""
+
+#: includes/data-functions.php:1730
+msgid "Swedish"
+msgstr ""
+
+#: includes/data-functions.php:1731
+msgid "Tagalog"
+msgstr ""
+
+#: includes/data-functions.php:1732
+msgid "Tajik"
+msgstr ""
+
+#: includes/data-functions.php:1733
+msgid "Tamil"
+msgstr ""
+
+#: includes/data-functions.php:1734
+msgid "Tarantino"
+msgstr ""
+
+#: includes/data-functions.php:1735
+msgid "Telugu"
+msgstr ""
+
+#: includes/data-functions.php:1736
+msgid "Thai"
+msgstr ""
+
+#: includes/data-functions.php:1737
+msgid "Tok Pisin"
+msgstr ""
+
+#: includes/data-functions.php:1738
+msgid "Turkish"
+msgstr ""
+
+#: includes/data-functions.php:1739
+msgid "Twi"
+msgstr ""
+
+#: includes/data-functions.php:1740
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/data-functions.php:1741
+msgid "Upper Sorbian"
+msgstr ""
+
+#: includes/data-functions.php:1742
+msgid "Urdu"
+msgstr ""
+
+#: includes/data-functions.php:1743
+msgid "Uzbek"
+msgstr ""
+
+#: includes/data-functions.php:1744
+msgid "Venetian"
+msgstr ""
+
+#: includes/data-functions.php:1745
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/data-functions.php:1746
+msgid "Vilamovian"
+msgstr ""
+
+#: includes/data-functions.php:1747
+msgid "Volapük"
+msgstr ""
+
+#: includes/data-functions.php:1748
+msgid "Võro"
+msgstr ""
+
+#: includes/data-functions.php:1749
+msgid "Welsh"
+msgstr ""
+
+#: includes/data-functions.php:1750
+msgid "Xhosa"
+msgstr ""
+
+#: includes/data-functions.php:1751
+msgid "Yiddish"
+msgstr ""
+
+#: includes/data-functions.php:1800
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/hook.php:47 includes/hook.php:50
+msgid "Theme options"
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-wordpress-theme-upgrader.php:282
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: includes/lib/envato-wordpress-toolkit/class-envato-wordpress-theme-upgrader.php:293
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: includes/lib/google-fonts.php:24 includes/lib/google-fonts.php:52
+msgid "100"
+msgstr ""
+
+#: includes/lib/google-fonts.php:25 includes/lib/google-fonts.php:53
+msgid "200"
+msgstr ""
+
+#: includes/lib/google-fonts.php:26
+msgid "200 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:27 includes/lib/google-fonts.php:54
+msgid "300"
+msgstr ""
+
+#: includes/lib/google-fonts.php:28
+msgid "300 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:29
+msgid "Regular"
+msgstr ""
+
+#: includes/lib/google-fonts.php:30
+msgid "Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:31 includes/lib/google-fonts.php:57
+msgid "600"
+msgstr ""
+
+#: includes/lib/google-fonts.php:32
+msgid "600 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:33 includes/lib/google-fonts.php:58
+msgid "700"
+msgstr ""
+
+#: includes/lib/google-fonts.php:34
+msgid "700 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:35 includes/lib/google-fonts.php:59
+msgid "800"
+msgstr ""
+
+#: includes/lib/google-fonts.php:36
+msgid "800 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:37 includes/lib/google-fonts.php:60
+msgid "900"
+msgstr ""
+
+#: includes/lib/google-fonts.php:38
+msgid "900 Italic"
+msgstr ""
+
+#: includes/lib/google-fonts.php:55
+msgid "400"
+msgstr ""
+
+#: includes/lib/google-fonts.php:56
+msgid "500"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:35
+msgid "Sidebar Generator"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:162
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:193
+#: includes/vc-extend/visual-composer-api.php:290
+#: includes/vc-extend/visual-composer-api.php:634
+msgid "Remove"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:163
+msgid "You've made changes, don't forget to save."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:164
+msgid "Changes were saved successfully."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:165
+msgid "An unexpected error ocurred."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:166
+msgid "The sidebar was successfully created."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:167
+msgid "The sidebar already exists. Please change the name."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:168
+msgid "Please enter a name for this sidebar."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:169
+msgid "Are you sure? If you remove this sidebar it can't be restored."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:170
+msgid "Sidebar Removed"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:171
+msgid "Data imported successfully."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:188
+msgid "Add new"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:189
+msgid "Save Changes"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:190
+msgid "Sidebar Name:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:191
+msgid "ID:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:192
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:304
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:213
+msgid "Sidebars"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:214
+#: templates/fields/export.php:7
+msgid "Export"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:216
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:303
+msgid "How to use?"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:284
+msgid "Copy text from textarea:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:293
+msgid "Paste exported data in textarea:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:305
+msgid ""
+"Paste the shortcode anywhere you want, in posts, pages etc. If the input "
+"accept shortcodes, then the sidebar will be displayed."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:307
+msgid "Function:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:308
+msgid ""
+"You can use the built-in function, but for this you should modify theme "
+"files and make sure to check if the function exists before use it."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:314
+msgid "WP Native function:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:315
+msgid ""
+"You can use the built-in function <em>smk_sidebar</em>, but anyways I "
+"recommend using WP native function to avoid conflicts."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:321
+msgid "For more info visit the following links:"
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:374
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:378
+msgid "Data is not valid."
+msgstr ""
+
+#: includes/lib/smk-sidebar-generator/smk-sidebar-generator.php:384
+msgid "Please enter data."
+msgstr ""
+
+#: includes/lib/wordpress-importer/parsers.php:42
+#: includes/lib/wordpress-importer/parsers.php:72
+#: includes/lib/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/lib/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/lib/wordpress-importer/parsers.php:84
+#: includes/lib/wordpress-importer/parsers.php:89
+#: includes/lib/wordpress-importer/parsers.php:279
+#: includes/lib/wordpress-importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:123
+#: includes/lib/wordpress-importer/wordpress-importer.php:132
+#: includes/lib/wordpress-importer/wordpress-importer.php:183
+#: includes/lib/wordpress-importer/wordpress-importer.php:187
+#: includes/lib/wordpress-importer/wordpress-importer.php:196
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:124
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:167
+msgid "All done."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:167
+msgid "Have fun!"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:168
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:188
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:204
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:229
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:255
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:256
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:258
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:268
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:271
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:275
+msgid "Submit"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:288
+msgid "Import author:"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:299
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:302
+msgid "as a new user:"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:310
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:312
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:313
+msgid "- Select -"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:363
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:414
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:454
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:500
+#: includes/lib/wordpress-importer/wordpress-importer.php:641
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:526
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:607
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:772
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:779
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:842
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:855
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:899
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:905
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:912
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:917
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:923
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:1021
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:1028
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:1043
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/lib/wordpress-importer/wordpress-importer.php:1044
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:4
+msgid "Add Item"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:5
+msgid "Item"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:6
+msgid "Move"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:149
+msgid "Use as Smart Sidebar"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:151
+#: includes/vc-extend/visual-composer-api.php:249
+msgid "Yes"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:152
+msgid "Use as Smart Sidebar."
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:158
+#: includes/vc-extend/visual-composer-api.php:172
+#: includes/vc-extend/visual-composer-api.php:186
+#: includes/vc-extend/visual-composer-api.php:200
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:160
+#: includes/vc-extend/visual-composer-api.php:202
+msgid "Row Type"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:164
+#: includes/vc-extend/visual-composer-api.php:206
+msgid "Full Width"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:165
+#: includes/vc-extend/visual-composer-api.php:207
+msgid "In Container"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:166
+#: includes/vc-extend/visual-composer-api.php:208
+msgid "Wrap Container"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:174
+msgid "Row Top Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:179
+msgid "Row Top Left Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:180
+msgid "Row Top Right Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:188
+msgid "Row Bottom Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:193
+msgid "Row Bottom Left Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:194
+msgid "Row Bottom right Diagonal"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:276
+msgid "Content (<em>Add Arbitrary text or HTML.</em>)"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:299
+#: templates/fields/img_size.php:54
+msgid "Add"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:420
+msgid "Select Attibute"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:447
+msgid "Select Attibute Filter"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:483
+msgid "Select brands"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:508
+msgid "Select lookbooks"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:534
+msgid "Select categories"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:560
+msgid "Search for a product..."
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:576
+#, php-format
+msgid "%s &ndash; %s"
+msgstr ""
+
+#: includes/vc-extend/visual-composer-api.php:640
+msgid "Pricing Table element only support display 5 item"
+msgstr ""
+
+#: templates/fields/background.php:38
+msgid "Background Repeat"
+msgstr ""
+
+#: templates/fields/background.php:52
+msgid "Background Size"
+msgstr ""
+
+#: templates/fields/background.php:66
+msgid "Background Attachment"
+msgstr ""
+
+#: templates/fields/background.php:89
+msgid "Background Position"
+msgstr ""
+
+#: templates/fields/custom_font.php:18
+msgid "Uploaded Fonts"
+msgstr ""
+
+#: templates/fields/custom_font.php:46
+msgid "Select a font family"
+msgstr ""
+
+#: templates/fields/custom_font.php:49
+msgid "No font specified"
+msgstr ""
+
+#: templates/fields/custom_font.php:53
+msgid "Web safe font combinatiions (do not need to be loaded)"
+msgstr ""
+
+#: templates/fields/custom_font.php:61
+msgid "Google Fonts (loaded from Google servers)"
+msgstr ""
+
+#: templates/fields/custom_font.php:75
+msgid "Font size"
+msgstr ""
+
+#: templates/fields/custom_font.php:90
+msgid "Font style"
+msgstr ""
+
+#: templates/fields/custom_font.php:112
+msgid "Subset"
+msgstr ""
+
+#: templates/fields/img_size.php:43
+msgid "Width"
+msgstr ""
+
+#: templates/fields/img_size.php:44
+msgid "Height"
+msgstr ""
+
+#: templates/fields/img_size.php:45
+msgid "Crop to exact dimensions."
+msgstr ""
+
+#: templates/fields/img_size.php:56 templates/fields/img_size.php:137
+msgid "Are you sure want to delete the element?"
+msgstr ""
+
+#: templates/fields/import.php:13
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: templates/fields/single_select_page.php:18
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: templates/fields/switch.php:13 templates/fields/toggle-switch.php:13
+msgid "On"
+msgstr ""
+
+#: templates/fields/switch.php:20 templates/fields/toggle-switch.php:20
+msgid "Off"
+msgstr ""
+
+#: templates/fields/upload_font.php:15
+msgid "Font Name"
+msgstr ""
+
+#: templates/fields/upload_font.php:20
+msgid "Font Weight"
+msgstr ""
+
+#: templates/fields/upload_font.php:42 templates/fields/upload_font.php:91
+msgid "Change File"
+msgstr ""
+
+#: templates/fields/upload_font.php:43 templates/fields/upload_font.php:102
+msgid "Select File"
+msgstr ""
+
+#: templates/fields/upload_font.php:54
+msgid "Clear File"
+msgstr ""
+
+#: templates/fields/upload_font.php:75
+msgid "Select or Upload your font file"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DawnThemes Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "DawnThemes Core Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes Team"
+msgstr ""

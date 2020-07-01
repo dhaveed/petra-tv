@@ -1,0 +1,457 @@
+/**
+ * 8.0 Footer
+ * -----------------------------------------------------------------------------
+ */
+a.go-to-top{
+	&,
+	&:hover
+	&:focus{
+		background-color: $go-to-top-bg;
+	    bottom: -50px;
+	    @include opacity(0);
+	    position: fixed;
+	    right: 20px;
+	    @include transition(all 0.2s ease-in-out 0s);
+	    color: $btn-color;
+	    font-size: 24px;
+	    line-height: 40px;
+	    width: 40px;
+	    height: 40px;
+	    position: fixed;
+	    text-align: center;
+	    z-index: 100;
+	    visibility: hidden;
+	    font-size: 0px;
+	    .fa{
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 40px;
+			@include transition(all 0.3s ease-in-out);
+		}
+	    &.on {
+	    	@include opacity(0.8);
+	    	visibility: visible;
+	    	bottom: 20px;
+	    	&:hover{
+	    		@include opacity(1);
+	    	}
+		}
+	}
+}
+#viem-popup-container{
+	.notification-action-renderer{
+		display: block;
+		background-color: #323232;
+    	color: #f1f1f1;
+		outline: none;
+	    z-index: 2202;
+	    position: fixed;
+	    box-sizing: border-box;
+	    left: 0px;
+	    bottom: 0px;
+	    max-width: 288px;
+	    max-height: 48px;
+	    margin: 14px;
+	    padding: 12px 24px;
+	    @include box-shadow(0 2px 5px 0 rgba(0, 0, 0, 0.26));
+	    @include border-radius(2px);
+	    @include transition(transform 0.3s, opacity 0.3s);
+	    @include opacity(0);
+	    @include translate(0, 100px);
+	    &.active{
+	    	 @include opacity(1);
+	    	@include translate(0, 0);
+	    }
+	}
+}
+.style-footer-1{
+	a.go-to-top{
+		&,
+		&:hover
+		&:focus{
+		}
+	}
+}
+
+
+#bottom-sidebar{
+	background-color: $footer-sidebar-background;
+	.bottom-sidebar{
+		.widget{
+			margin: 0;
+			padding-bottom: 30px;
+			border-bottom: 1px solid rgba(#ffffff, 0.1);
+			background: transparent;
+
+			.viem-dark{
+				background: transparent;
+			}
+			.widget-title{
+			    color: #ffffff;
+			    font-weight: bold;
+			    margin: 0 0 20px;
+			    padding: 20px 0px 0px 0px;
+			    text-transform: capitalize;
+			    border: 0px;
+			    i{
+					margin-left: 0px;
+					.rtl &{
+						margin: 0;
+						margin-left: 20px;
+					}
+			    }
+			}
+		}
+	}
+}
+.site-footer{
+	position: relative;
+	background: $footer-background;
+	color: $footer-color;
+		#footer-primary{
+			padding: 0;
+			background-color: $footer-sidebar-background;
+		}
+
+		.footer-sidebar {
+			.footer-sidebar-content{ padding-bottom: 40px; }
+			color: $footer-sidebar-color;
+			.footer-primary__group{
+				float: left;
+				position: relative;
+			    min-height: 1px;
+			    padding-right: 15px;
+			    padding-left: 15px;
+			    width: 100%;
+			}
+
+			.footer-primary__columns__1{
+				.footer-primary__group{
+					width: 100%;
+				}
+			}
+
+			.footer-primary__columns__2{
+				@media (min-width: 992px){
+					.footer-primary__group{
+						width: 50%;
+					}
+				}
+			}
+
+			.footer-primary__columns__3{
+				@media (min-width: 992px){
+					.footer-primary__group{
+						width: 33.33333333%;
+					}
+				}
+			}
+
+			.footer-primary__columns__4{
+				@media (min-width: 992px){
+					.footer-primary__group{
+						width: 25%;
+					}
+				}
+			}
+
+			.footer-primary__columns__5{
+				@media (min-width: 992px){
+					.footer-primary__group{
+						width: 20%;
+					}
+				}
+			}
+
+			.widget{
+				margin: 0;
+				padding-top: 30px;
+				&+.widget{
+					//padding-top: 15px;
+				}
+				.widget-title{
+				    color: #ffffff;
+				    font-size: 1.714em;
+				    font-weight: bold;
+				    margin: 0 0 21px;
+				    padding: 10px 0px 0px 0px;
+				    text-transform: capitalize;
+				    border: 0px;
+				}
+				a{
+					text-decoration: none;
+					&:hover{
+						color: #ffffff;
+						text-decoration: none;
+					}
+				}
+
+				p{
+					margin-bottom: 10px;
+				}
+
+				&.widget_nav_menu{ /* Custom menu widget */
+					ul{
+						li{
+							border-bottom: 1px solid rgba(255,255,255,0.1);
+						    padding-bottom: 9px;
+						    margin-bottom: 9px;
+						    a{
+						    	position: relative;
+						    	padding-left: 15px;
+						    	font-size: 1em;
+						    	&:before{
+						    		position: absolute;
+						    		content: "\f105";
+						    		font: 14px/1 FontAwesome;
+						    		top: 2px;
+						    		left: 0;
+						    		font-size: 1em;
+						    	}
+						    	&:hover{
+						    		color: #ffffff;
+						    		&:before{
+						    			color: #ffffff;
+						    		}
+						    	}
+						    	.rtl &{
+						    		padding-left: 0;
+						    		padding-right: 15px;
+						    		&:before{
+						    			left: auto;
+						    			right: 0;
+						    			content: "\f104";
+						    		}
+						    	}
+						    }
+
+						    &:last-child{
+						    	border: none;
+						    }
+							ul{
+								display: none;
+							}
+						}
+					}
+				}
+				&.widget_recent_comments .recentcomments{
+					.comment-author-link,
+					a{
+						color: $footer-link-color;
+						&:hover{
+							color: $footer-link-hover-color;
+						}
+					}
+				}
+				#searchform.search-form.dt-search-form input{
+					color: #ffffff;
+				}
+			}
+			input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], input[type="search"], textarea, .form-control, select
+			{
+				margin-bottom: 12px;
+			}
+			button, input[type="submit"]{
+				padding: 7px 20px;
+			    background: $main-color;
+			    color: #fff;
+			    font-size: 1em;
+			    font-weight: bold;
+			    border: 0;
+			    -webkit-border-radius: 2px;
+			    -moz-border-radius: 2px;
+			    border-radius: 2px;
+			}
+
+			.footer-newsletter{
+				position: relative;
+				overflow: hidden;
+				margin-bottom: 12px;
+				.fa{
+					position: absolute;
+					left: 10px;
+					color: #d8d8d8;
+					top: 50%;
+					@include translate(0,-50%);
+				}
+				input.wpcf7-email{
+					padding: 10px 15px 10px 30px;
+					margin: 0;
+				}
+			}
+		}
+
+		.widget{
+			&.latest-videos_widget,
+			&.videos_slider_widget,
+			&.videos_list_widget{
+				.viem-video_list_wg{
+					padding: 0;
+				}
+			}
+			&.widget-mailchimp{
+				background-color: transparent;
+				.widget-mailchimp-wrapper{
+					padding: 0;
+					.mailchimp-form-content{
+						.newsletter-field{
+							input.dt-form-text{
+								background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+								border: 1px solid rgba(255, 255, 255, 0.2);
+								color: #b1c6d8;
+							}
+						}
+					}
+				}
+				.viem-dark{
+					background: transparent;
+				}
+			}
+		}
+
+		.footer-navigation{
+			padding: 15px 0px;
+		}
+		.footer-navigation ul.menu{
+			list-style: none;
+			margin:0;
+			text-align:right;
+		}
+		.footer-navigation ul li{
+			position: relative;
+		    display: inline-block;
+		    padding: 0 13px 0 13px;
+		    line-height: 1;
+		}
+		.footer-navigation ul:after{
+			display:table;
+			content:"";
+			clear:both;
+		}
+		.footer-navigation ul li a{
+			color:#999999;
+		}
+		.footer-navigation ul li a:hover{
+			color:#ffffff;
+			text-decoration:none;
+		}
+		
+		.footer-bottom{
+			.footer-sidebar-content{ padding: 20px 0px 0px; }
+			a{
+				color: #ffffff;
+				&:hover{
+					color: $main-color;
+				}
+			}
+			.copyright-section{
+				.site-info{
+					margin-bottom: 20px;
+					text-align: center;
+					font-weight: bold;
+					font-size: 0.857em;
+					a:hover {
+						color: #ffffff;
+						text-decoration: none;
+					}
+				}
+				.footer-right{
+					text-align: center;
+					margin-bottom: 10px;
+					@include clearfix();
+					ul.viem_dt_social_profile{
+						@include ulclear();
+						@include clearfix();
+						display: inline-block; vertical-align: top;
+						li{
+							display: inline-block;
+							vertical-align: middle;
+							float: left;
+							padding: 0px 5px 10px 5px;
+							a{
+								display: block;
+								width: 36px;
+								height: 36px;
+								line-height: 34px;
+								text-align: center;
+								border: 1px solid rgba(#ffffff,0.2);
+								@include border-radius(3px);
+								color: #95acc0;
+								background-color: transparent;
+								@include theme-transition();
+								&:hover{
+									background-color: #1b3143;
+									color: #ffffff;
+								}
+							}
+						}
+					}
+					ul.menu{
+						@include ulclear();
+						overflow: hidden;
+					    margin: 0;
+					    list-style: none outside none;
+					    display: inline-block;
+    					vertical-align: middle;
+					    li{
+					    	float: left;
+					    	line-height: 1em;
+					    	font-weight: bold;
+					    	margin-bottom: 10px;
+					    	a{
+					    		color: $footer-color;
+					    		&:hover{
+					    			color: $footer-link-hover-color;
+					    		}
+					    	}
+					    	& + li{
+					    		padding-left: 20px;
+							    margin-left: 20px;
+							    position: relative;
+							    &:before{
+						    		position: absolute;
+						    		content: "\f111";
+						    		font: 14px/1 FontAwesome;
+						    		bottom: 0;
+						    		left: 0;
+						    		font-size: 6px;
+						    	}
+					    	}
+					    }
+					}
+				}
+				@media (min-width: 992px){
+					&.has-footer-right{
+						display: table;
+						width: 100%;
+						@include clearfix();
+						.site-info,
+						.footer-right{
+							display: table-cell;
+							vertical-align: middle;
+							width: 50%;
+						}
+						.site-info{
+							float: left;
+							text-align: left;
+						}
+						.footer-right{
+							float: right;
+							text-align: right;
+						}
+					}
+				}
+			}
+		}
+}
+@media (min-width: 992px){
+	body.footer-parallax{
+		#footer{
+			position: fixed;
+			z-index: 1;
+			left: 0;
+		    right: 0;
+		    bottom: 0;
+		}
+	}
+}

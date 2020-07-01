@@ -1,0 +1,143 @@
+<wpml-config>
+    <admin-texts>
+        <key name="dt_theme_viem">
+            <key name="blog-loadmore-text" />
+            <key name="advertisement_title" />
+            <key name="skip_advertisement_text" />
+            <key name="skip_ad_text" />
+            <key name="play_btn_tooltip_txt" />
+            <key name="pause_btn_tooltip_txt" />
+            <key name="rewind_btn_tooltip_txt" />
+            <key name="quality_btn_opened_tooltip_txt" />
+            <key name="quality_btn_close_tooltip_txt" />
+            <key name="mute_btn_tooltip_txt" />
+            <key name="unmute_btn_tooltip_txt" />
+            <key name="fullscreen_btn_tooltip_txt" />
+            <key name="exit_fullscreen_btn_tooltip_txt" />
+            <key name="volume_tooltip_txt" />
+            <key name="playlist_btn_closed_tooltip_txt" />
+            <key name="playlist_btn_opened_tooltip_txt" />
+            <key name="last_btn_tooltip_txt" />
+            <key name="first_btn_tooltip_txt" />
+            <key name="next_btn_tooltip_txt" />
+            <key name="previous_btn_tooltip_txt" />
+            <key name="shuffle_btn_on_tooltip_txt" />
+            <key name="shuffle_btn_off_tooltip_txt" />
+            <key name="footer-copyright" />
+            <key name="page_not_found_title" />
+            <key name="page_not_found_btn_text" />
+        </key>
+    </admin-texts>   
+    <custom-types>
+        <custom-type translate="1">viem_video</custom-type>
+        <custom-type translate="1">viem_playlist</custom-type>
+        <custom-type translate="1">viem_channel</custom-type>
+        <custom-type translate="1">viem_series</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">video_cat</taxonomy>
+        <taxonomy translate="1">video_tag</taxonomy>
+        <taxonomy translate="1">video_badges</taxonomy>
+    </taxonomies>
+    <shortcodes>
+        <shortcode>
+            <tag>dt_blog</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>loadmore_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_button</tag>
+            <attributes>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_banner</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>desc</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_heading</tag>
+            <attributes>
+                <attribute>text</attribute>
+            </attributes>
+        </shortcode>
+         <shortcode>
+            <tag>dt_icon_box</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>desc</attribute>
+            </attributes>
+        </shortcode>
+         <shortcode>
+            <tag>dt_post_category</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+         <shortcode>
+            <tag>dt_post_grid</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+         <shortcode>
+            <tag>dt_recent_videos</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_social_accounts</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_trending_video</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_video</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_video_badges</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_video_categories</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_video_featured</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_video_layout</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>loadmore_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>dt_videos_slider</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+</wpml-config>
